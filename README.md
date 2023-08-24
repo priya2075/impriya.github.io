@@ -1,1 +1,1 @@
-# impriya.github.io
+# impriya.com
