@@ -18,6 +18,8 @@ I have laid out a following list of projects I have worked on over the years til
 All coding projects are built from scratch using Visual Studio Code and Sublime Text.
 </p>
 
+#
+
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=priya2075&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="priya2075" /></p>
 
 
@@ -25,7 +27,7 @@ All coding projects are built from scratch using Visual Studio Code and Sublime 
 
 
 
-### 🧰 Languages and Tools:
+### 🔧 Languages and Tools:
 
 <div align="right">
 <p align="left"> 
@@ -63,6 +65,7 @@ All coding projects are built from scratch using Visual Studio Code and Sublime 
 ---
 
 ### 📺 YouTube Videos of my Projects
+
 
 ---
 
