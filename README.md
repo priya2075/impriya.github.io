@@ -65,6 +65,12 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 ### 📺 <a href="https://iampriya.com">Click here to view YouTube Videos of my Projects</a>
 
 [![ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019](https://ytcards.demolab.com/?id=ogRh422WlFk&title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "NITEC1")](https://www.youtube.com/watch?v=ogRh422WlFk)
+[![ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019](https://ytcards.demolab.com/?id=ogRh422WlFk&title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "NITEC1")](https://www.youtube.com/watch?v=ogRh422WlFk)
+[![ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019](https://ytcards.demolab.com/?id=ogRh422WlFk&title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "NITEC1")](https://www.youtube.com/watch?v=ogRh422WlFk)
+[![ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019](https://ytcards.demolab.com/?id=ogRh422WlFk&title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "NITEC1")](https://www.youtube.com/watch?v=ogRh422WlFk)
+[![ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019](https://ytcards.demolab.com/?id=ogRh422WlFk&title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "NITEC1")](https://www.youtube.com/watch?v=ogRh422WlFk)
+[![ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019](https://ytcards.demolab.com/?id=ogRh422WlFk&title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "NITEC1")](https://www.youtube.com/watch?v=ogRh422WlFk)
+
 ---
 
 <div align="center">
