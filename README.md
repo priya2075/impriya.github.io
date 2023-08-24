@@ -60,9 +60,11 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 <br />
 
 ---
-<a href="https://iampriya.com">
-### 📺 YouTube Videos of my Projects
-</a>
+
+
+### 📺 <a href="https://iampriya.com">Click here to view YouTube Videos of my Projects</a>
+
+
 ---
 
 <div align="center">
