@@ -20,16 +20,13 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 
 #
 
+<!-- stats -->
 <p><img align="right"  src="https://github-readme-stats.vercel.app/api/top-langs?username=priya2075&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="priya2075" /></p>
 
-
-
-
-
-
+<!-- Languages and Tools -->
 ### 🔧 Languages and Tools:
 
-<div align="right">
+<div align="left">
 <p align="left"> 
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
@@ -63,10 +60,9 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 <br />
 
 ---
-
+<a href="https://iampriya.com">
 ### 📺 YouTube Videos of my Projects
-
-
+</a>
 ---
 
 <div align="center">
