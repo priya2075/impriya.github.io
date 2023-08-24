@@ -1,14 +1,15 @@
+<!-- Header -->
 <div align="center">
   <img style="border-radius:50%;" src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=gradient&height=300&section=header&text=Hello,%20I%20am%20Priya!&fontSize=80" alt="IAMPRIYA.COM"/>
 </div>
 
-
+<!-- Sub Header -->
 <div align="center">
 <h3>I am currently pursuing a part-time diploma in cybersecurity!</h3>
 </div>
 
 #
-
+<!-- body -->
 <p align="center">
 And while I am building my new career path brick by brick, <br />
 I have laid out a following list of projects I have worked on over the years till date. <br />
@@ -19,7 +20,7 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 
 #
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=priya2075&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="priya2075" /></p>
+<p><img align="right"  src="https://github-readme-stats.vercel.app/api/top-langs?username=priya2075&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="priya2075" /></p>
 
 
 
