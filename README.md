@@ -1,11 +1,12 @@
 <!-- Header -->
 <div align="center">
-  <img style="border-radius:50%;" src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=gradient&height=300&section=header&text=Hello,%20I%20am%20Priya!&fontSize=80" alt="IAMPRIYA.COM"/>
+  <img src="https://64.media.tumblr.com/722fb07f13764fb24e8b3739d20c2c9c/ff7b7fd2c7453fa1-ff/s1280x1920/03f3388017974120a109da5a6c1df75b57c6dcf5.gif">
 </div>
 
 <!-- Sub Header -->
 <div align="center">
-<h3>I am currently pursuing a part-time diploma in cybersecurity!</h3>
+  <h1>Hello, 👋 I am Priya!</h1>
+  <h3>I am currently pursuing a part-time diploma in cybersecurity!</h3>
 </div>
 
 #
@@ -74,7 +75,7 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 ---
 
 <div align="center">
-  <a title="Forrest Knight" href="https://www.youtube.com/watch?v=9A8sQZDRn5o&ab_channel=ForrestKnight" target="_blank">
-    <img style="border-radius:50%;" src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=gradient&height=250&section=footer&text=credits%20:%20Forrest%20Knight&fontSize=10" alt="credits"/>
+  <a title="priya2075" href="https://github.com/priya2075" target="_top">
+    <img src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=gradient&height=250&section=footer&text=credits%20:%20Forrest%20Knight,%20ytcards,%20rahuldkjain&fontSize=10" alt="credits"/>
   </a>
 </div>
