@@ -1,10 +1,14 @@
-# 🥷 Priya M
+<div align="center">
+  <img style="border-radius:50%;" src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=gradient&height=300&section=header&text=Hello,%20I%20am%20Priya!&fontSize=80" alt="IAMPRIYA.COM"/>
+</div>
 
-**`Digital nomad (Web Designer/Bookworm/Part-time dabbler in Cybersecurity)`**
+# 🥷 Digital Nomad
 
-I am currently pursuing a part-time diploma in cybersecurity and while I am building my new career path brick by brick, I have layed out the following below to understand the projects I have worked on over the years till date.
+**`[Web Designer / Bookworm / Part-time dabbler in Cybersecurity]`**
 
-All coding projects are built from scratch using Visual Studio Code.
+I am currently pursuing a part-time diploma in cybersecurity and while I am building my new career path brick by brick, I have laid out a following list of projects I have worked on over the years till date.
+
+All coding projects are built from scratch using Visual Studio Code and Sublime
 
 ---
 
@@ -37,8 +41,20 @@ All coding projects are built from scratch using Visual Studio Code.
  <img align="left" title="GitHub" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 </a>
 
-<!-- <img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/> -->
+
+<a title="GitHub" href="https://visualstudio.microsoft.com/" target="_blank">
+ <img align="left" title="visualstudio" alt="visualstudio" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" />
+</a>
+
+    
 </div>
 <br />
 
 ---
+
+
+<div align="center">
+  <a title="Forrest Knight" href="https://www.youtube.com/watch?v=9A8sQZDRn5o&ab_channel=ForrestKnight" target="_blank">
+    <img style="border-radius:50%;" src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=gradient&height=250&section=footer&text=credits%20:%20Forrest%20Knight&fontSize=10" alt="credits"/>
+  </a>
+</div>
