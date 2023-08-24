@@ -60,7 +60,7 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 </div>
 <br />
 
----
+#
 
 
 ### 📺 <a href="https://iampriya.com">Click here to view YouTube Videos of my Projects</a>
@@ -71,6 +71,18 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 [![SP - IT8081 - CLASS 1 - Information Security PPTX Individual Project by Priya M - Aug 2022](https://ytcards.demolab.com/?id=R6uy9Z85jRo&title=SP+-+IT8081+-+CLASS+1+-+Information+Security+PPTX+Individual+Project+by+Priya+M+-+Aug+2022&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "SP - IT8081 - CLASS 1 - Information Security PPTX Individual Project by Priya M - Aug 2022")](https://www.youtube.com/watch?v=R6uy9Z85jRo)
 [![SP - IT8087 - CLASS 1 - Ethical Hacking Final CTF 1 to 4 exam by Priya M - Feb 2023](https://ytcards.demolab.com/?id=0mozZx0MLfE&title=SP+-+IT8087+-+CLASS+1+-+Ethical+Hacking+Final+CTF+1+to+4+exam+by+Priya+M+-+Feb+2023&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "SP - IT8087 - CLASS 1 - Ethical Hacking Final CTF 1 to 4 exam by Priya M - Feb 2023")](https://www.youtube.com/watch?v=0mozZx0MLfE)
 [![SP - IT8085 - CLASS 1 - Python Individual Assignment 1 by Priya M - Ver2 0 - May 2023](https://ytcards.demolab.com/?id=RoGEvgmnsQg&title=SP+-+IT8085+-+CLASS+1+-+Python+Individual+Assignment+1+by+Priya+M+-+Ver2+0+-+May+2023&lang=en&&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5  "SP - IT8085 - CLASS 1 - Python Individual Assignment 1 by Priya M - Ver2 0 - May 2023")](https://www.youtube.com/watch?v=RoGEvgmnsQg)
+
+---
+
+<p>
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=priya2075&show_icons=true&locale=en&theme=tokyonight" alt="priya2075" />
+</p>
+
+<p>
+  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=priya2075&theme=radical" alt="priya2075" />
+</p>
+
+
 
 ---
 
