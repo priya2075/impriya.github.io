@@ -4,15 +4,17 @@
 
 
 <div align="center">
-<h1>Hi 👋, I'm Priya Manoharan</h1>
 <h3>I am currently pursuing a part-time diploma in cybersecurity!</h3>
 </div>
 
 
 
-<p align="middle">
-I am currently pursuing a part-time diploma in cybersecurity and while I am building my new career path brick by brick, <br />
+<p align="center">
+I am currently pursuing a part-time diploma in cybersecurity  <br />
+and while I am building my new career path brick by brick, <br />
 I have laid out a following list of projects I have worked on over the years till date. <br />
+</p>
+<p align="middle">
 All coding projects are built from scratch using Visual Studio Code and Sublime Text.
 </p>
 
