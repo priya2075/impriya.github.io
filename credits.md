@@ -15,6 +15,11 @@
 - https://github.com/anuraghazra/github-readme-stats
 
 
+## Badges:
+- https://shields.io/
+- https://github.com/Ileriayo/markdown-badges
+- https://dev.to/envoy_/150-badges-for-github-pnk
+
 
 ## Footer wave:
 - https://github.com/kyechan99/capsule-render
