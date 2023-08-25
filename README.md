@@ -117,7 +117,7 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 </p>
 
 <p>
-  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=priya2075&card_width=370&theme=radical" alt="priya2075" />
+  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=priya2075&card_width=360&theme=radical" alt="priya2075" />
 </p>
 
 ---
