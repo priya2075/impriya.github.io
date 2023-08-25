@@ -119,13 +119,14 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 
 #
 
+<!-- github-readme-streak-stats -->
 <p align="center">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=priya2075&show_icons=true&locale=en&theme=radical&card_width=440" alt="priya2075" />
   <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=priya2075&card_width=350&theme=radical" alt="priya2075" />
 </p>
 
 
-
+<!-- Footer -->
 <div align="center">
   <a title="priya2075" href="https://github.com/priya2075" target="_top">
     <img src="https://capsule-render.vercel.app/api?type=waving&animation=fadeIn&color=gradient&height=120&section=footer" alt="credits"/>
