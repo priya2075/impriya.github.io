@@ -1,9 +1,93 @@
+/*
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+
+*/
+
+    
+/* ==========================================================================
+   @ HTML / BODY
+   ========================================================================== */   
 * {
     margin: 0; 
     padding: 0; 
-    box-sizing: border-box;
-    scroll-behavior: smooth;
     text-rendering: optimizeLegibility;} 
+*:before,*:after{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;}
+html{   
+    font-family: var(--body-font);
+    -ms-content-zooming: none;
+    scroll-behavior: smooth;
+    -ms-content-zooming: none;
+    -webkit-animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    background: #1c2429;
+    background-repeat:repeat; 
+    background-attachment:fixed; 
+    background-position:center;
+    background-image: url("https://static.tumblr.com/crddmbw/LuYs019ot/2641074.gif");
+} 
+body {      
+    -ms-content-zooming: none;
+    display: flex;
+    flex-wrap: wrap; 
+    background-size: 32%;
+    transition-duration: 39ms;
+    background-repeat: repeat-y; 
+    background-attachment:scroll;
+    background-position: left left;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fonteffect;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation: fadein 1.5s ease-in;
+    -moz-animation: fadein 1.5s ease-in;
+    animation: fadein 1.5s ease-in;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;}
+@-webkit-keyframes fonteffect {
+      0% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 1;
+      }
+}
+body, html, table, textarea { 
+    z-index:1337;
+    font-weight:400;
+    word-wrap: break-word;
+    text-align: justify; 
+    font-smooth: always;
+    line-height: 1.8em;   
+    font-size: 12px;
+    hypens:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing:antialiased;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    -o-user-select: none;
+    user-select: none;}
 *:before,*:after {
     box-sizing: border-box;}
 *:input, textarea {
@@ -14,147 +98,134 @@ img {
     outline: none;}  
 ::-moz-focus-inner {
     border: 0;}  
-html, body, .body, document, function, a:hover {
-    cursor: url('/images/default.png'), 
-            url('/images/default.cur'), auto!important;}
-
-a, a:focus, a:link, a:visited, a:active, a:hover {
-    cursor: url('/images/pointer.png'), 
-            url('/images/pointer.cur'), pointer!important;} 
-html {   
-    font-family: var(--body-font);
-    -ms-content-zooming: none;}   
-body {
-    word-wrap: break-word;
-    text-align: justify; 
-    font-smooth: always;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smooth: antialiased;
-    -webkit-touch-callout: none; 
-    -webkit-user-select: none;
-    -khtml-user-select: none; 
-    -moz-user-select: none;
-    -ms-user-select: none; 
-    -o-user-select: none;
-    user-select: none;}
-a:link, a:active, a:visited  {
-    color: var(--h2-color); 
+a:link, a:active, a:visited, h3 a:hover {
+    color: #fe428e; 
     text-decoration: none;
     -webkit-transition: 0.2s ease-in; 
     -moz-transition: 0.2s ease-in; 
     transition: 0.2s ease-in;}
-a:hover {
-    text-decoration: none !important;
-    border-bottom: none !important;
-    background: linear-gradient(to bottom, rgba(101, 223, 201, .97) 0%, rgba(66, 102, 150, 1) 100%);
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
+h3 a:link, h3 a:active, h3 a:visited, a:hover {
+    color: #f8d847;
     -webkit-transition: 0.2s ease-out; 
     -moz-transition: 0.2s ease-out; 
     transition: 0.2s ease-out;}
+a:focus, a:active, a:hover, a img { 
+    border:0;
+    outline: 0!important; 
+    outline: none !important;
+    outline-offset: -2px;
+    ie-dummy: expression(this.hideFocus=true);}
+hr {
+    width: 98%;
+    height: 0.11em;
+    border-radius: 100%;
+    margin: 25px auto;
+    background: -webkit-gradient(
+    linear, left top, right bottom,
+    from(transparent), 
+    color-stop(.9, #563d7c), 
+    to(transparent));
+    background: -moz-linear-gradient(
+    0deg, transparent,
+    #563d7c, transparent);}
 h1 {
     color: var(--h1-color);
+    line-height: 4rem;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.6rem;
     opacity: 0.8;}
 h2 {
     color: var(--h2-color);
+    line-height: 4rem;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     opacity: 0.8;}
 h3 {
     color: var(--h3-color);
+    line-height: 4rem;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 2rem;
     opacity: 0.8;}  
 i.cp {
     font-weight: 600;
-    font-size: 1.5rem;
-    background: linear-gradient(to bottom, rgba(101, 223, 201, .97) 0%, rgba(66, 102, 150, .7) 100%);
+    font-size: 2rem;
+    color: #f8d847;
+    background-color: #f8d847;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;}
-main#container {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to top right, rgba(101, 223, 201, .97) 0%, rgba(66, 102, 150, .1) 100%);}
-#glass {
-    z-index: 3;
-    min-height: 80vh;
-    width: 60%; 
-    display: flex;
+.subheader {
+    text-align: center !important;
+    color: var(--subheader-color);
+    line-height: 2.6rem;
+    margin-bottom: 20px;}
+p.sentence {
+    color: var(--sentence-color);
+    line-height: 2rem;
+    font-weight: 400;
+    font-size: 12px;}
+small {font-size: 80%;}
+sup, sub {font-size: 75%;}
+b, big, bold, strong  {font-weight: bold;font-weight: 900;}
+i, em, italic {font-style: italic;} 
+/* --------------------------------------------- Main 1 */
+#container {
+    width: 1100px;
+    height: 100%;
+    clear: both;
+    padding: 0 0 0 0;
+    margin: 20px auto!important;
     border-radius: 2rem;
-    backdrop-filter: blur(0.3rem);
-    box-shadow: 0px 0px 5px rgba(49, 49, 49, 0.247);
-    background: 
-    linear-gradient(
-        to right bottom, 
-        rgba(255, 255, 255, 0.7), 
-        rgba(255, 255, 255, 0.3));}
-
-/* -- LEFT -- */
-#dashboard {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem; 
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, .7), rgba(255, 255, 255, .3));}
-.user p {
-    color: var(--h3-color);
-    font-size: 14px;
-    width: 80%;
-    margin: 0.3rem auto;
-    padding: 0 3rem;}
-.usericon img {
-    z-index: 9;
-    padding: 4px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-    background: rgba(250,209,85,0.9);}
-.link {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 0.6rem 0rem;
-    padding: 0.3rem 3rem;}
-.link h2 {
-    font-weight: 600;
-    font-size: 1.5rem;
-    padding: 0 2rem;}
-.links a {
-    text-decoration: none !important;
-    border-bottom: none !important;
-    background: linear-gradient(to bottom, rgba(101, 223, 201, .97) 0%, rgba(66, 102, 150, 1) 100%);
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;}
-
-/* -- RIGHT -- */
-#profile {
-    flex: 2;
-    margin: 0.3rem auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;}
+    background: linear-gradient(to top right, rgba(20, 19, 32, .5) 0%, rgba(0, 0, 0, .8) 100%);}
+#inner-container {
+    width: 950px;
+    height: 100%;
+    clear: both;
+    padding: 0;
+    margin: 0 auto 0 auto!important;
+    border-radius: 2rem;
+    border: 1px solid rgba(89, 89, 89, .6);
+    background: rgba(20, 19, 32, .9);
+    box-shadow: 
+        0 1px 2px rgba(122, 122, 122, 0.01), 
+        0 2px 4px rgba(122, 122, 122, 0.02), 
+        0 4px 8px rgba(122, 122, 122, 0.03), 
+        0 8px 16px rgba(122, 122, 122, 0.04),
+        0 16px 32px rgba(122, 122, 122, 0.05),
+        0 32px 64px rgba(122, 122, 122, 0.05);}
+#subinner-container {
+    width: 900px;
+    height: 100%;
+    clear: both;
+    padding: 0;
+    margin: 0 auto 0 auto!important;}
+.header {
+    height: 450px;
+    margin: 0 auto 20px 0;
+    background-image: url('https://64.media.tumblr.com/722fb07f13764fb24e8b3739d20c2c9c/ff7b7fd2c7453fa1-ff/s1280x1920/03f3388017974120a109da5a6c1df75b57c6dcf5.gif');
+    background-position: center;
+    background-size: contain !important;
+    -webkit-box-shadow: inset 0px 4px 10px -3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: inset 0px 4px 10px -3px rgba(50, 50, 50, 0.75);
+    box-shadow: inset 0px 4px 10px -3px rgba(50, 50, 50, 0.75);}
+.subcontact {
+    display: inline;
+    float: right !important;
+    margin: 20px 20px 0 0;
+    padding:5px 13px;
+    color: #563d7c;
+    font-size:16px;
+    font-weight:900;
+    border-radius: 50px;
+    background: rgba(248,216,78,0.9);}
+.subcontact:hover {opacity:0.9;}
+.postbody {
+    overflow:hidden;
+    border-bottom: 1px dashed #8c8c8c;
+    padding: 0 0 35px 0;
+    margin:0 auto 30px auto;}
+/* --------------------------------------------- Section 1 */
 .card {
     display: flex;
     flex-direction: column;
@@ -204,20 +275,18 @@ main#container {
     align-items: center;
     text-align: center;
     justify-content: space-evenly;}
-
-/* -- BLOBS -- */
-#topblob {
-    z-index: 1;
-    right: 9%;
-    top: 5%;
-    width: 20rem; 
-    height: 20rem;
-    position: absolute;}
-#bottomblob {
-    z-index: 1;
-    left: 12%;
-    bottom: 5%;
-    width: 20rem; 
-    height: 20rem;
-    position: absolute;}
-
+/* --------------------------------------------- Footer */   
+#footer { 
+    clear: both; 
+    width: 100%;
+    display: block; 
+    padding: 10px 0 10px 0; 
+    margin-bottom:-5px;
+    margin-top:80px;
+    background-color:#999;
+    text-align: center !important; 
+    color: var(--footer-color);
+    background-repeat:repeat; 
+    background-attachment:fixed; 
+    background-position:center;
+    background-image: url("https://static.tumblr.com/crddmbw/1aAs019jg/bg.gif");}
