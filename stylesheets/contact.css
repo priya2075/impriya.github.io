@@ -183,7 +183,7 @@ i, em, italic {font-style: italic;}
     height: 100%;
     clear: both;
     padding: 0;
-    margin: 0 auto 0 auto!important;
+    margin: -20px auto 0 auto!important;
     border: 1px solid rgba(89, 89, 89, .6);
     background: rgba(20, 19, 32, .9);
     box-shadow: 
