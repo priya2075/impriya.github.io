@@ -183,7 +183,7 @@ i, em, italic {font-style: italic;}
     height: 100%;
     clear: both;
     padding: 0;
-    margin: -20px auto 0 auto!important;
+    margin: 0px auto 0 auto!important;
     border: 1px solid rgba(89, 89, 89, .6);
     background: rgba(20, 19, 32, .9);
     box-shadow: 
@@ -201,7 +201,7 @@ i, em, italic {font-style: italic;}
     margin: 0 auto 0 auto!important;}
 .header {
     height: 450px;
-    margin: 0 auto 20px 0;
+    margin: -20px auto 20px 0;
     background-image: url('https://64.media.tumblr.com/722fb07f13764fb24e8b3739d20c2c9c/ff7b7fd2c7453fa1-ff/s1280x1920/03f3388017974120a109da5a6c1df75b57c6dcf5.gif');
     background-position: center;
     background-size: contain !important;
