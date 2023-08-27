@@ -402,6 +402,19 @@ td {
     width:850px;
     justify-content:center;
     margin:0 auto;}
+.spacer {
+    margin-right: 45px; }
+.videos_row1 {
+    overflow:hidden; 
+    height:190px!important; 
+    border-radius: 6px; 
+    width:250px!important;}
+.videos_row2 {
+    margin-top:20px; 
+    overflow:hidden; 
+    height:190px!important; 
+    border-radius: 6px; 
+    width:250px!important;}
 /* --------------------------------------------- Footer */   
 #footer { 
     clear: both; 
