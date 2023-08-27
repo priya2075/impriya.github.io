@@ -104,7 +104,7 @@ All coding-related projects are built from scratch using Visual Studio Code and 
 | [Estate Feedback Management Application System](https://github.com/priya2075/EFMAS)  | Javascript, HTML, CSS, Visual Studio Code | [YouTube](https://www.youtube.com/watch?v=eBHqSNuGV44) |
 | [I: Electronic Services and Protection Services Application](https://github.com/priya2075/ESPS)  | Python, Visual Studio Code | [YouTube](https://www.youtube.com/watch?v=RoGEvgmnsQg)|
 | [II: Electronic Services and Protection Services Application](https://github.com/priya2075/ESPS)  | Python, Visual Studio Code | [YouTube](https://www.youtube.com/watch?v=AtWkoOZ7RA0)|
-| [So Power Automated Menu System](https://github.com/priya2075/SPAMS)  | Python + PyCryptodome, Visual Studio Code, | - |
+| [So Power Automated Menu System](https://github.com/priya2075/So-Power-Automated-Menu)  | Python + PyCryptodome, Visual Studio Code, | - |
 
 #
 
