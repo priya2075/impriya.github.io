@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+
+  
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -42,12 +47,20 @@
     
     <link href="/stylesheets/style.css" rel="stylesheet">
 
+
+
 <style type="text/css">
 :root {
     --body-font: 'Poppins', sans-serif;
-    --h1-color: #426696;
-    --h2-color: #658ec6;
-    --h3-color: #426696;}
+    --h1-color: #fe428e;
+    --h2-color: #fe428e;
+    --h3-color: #f8d847;
+    --subheader-color: #f8d847;
+    --sentence-color: #a9fef7;
+    --table-color: #a9fef7;
+    --th-color: #3572a5;
+    --tr-color: #178600;
+    --footer-color: #f8d847;}
     
 html, body, .body, document, function, a:hover {
     cursor: url('/images/default.png'), 
@@ -58,79 +71,203 @@ a, a:focus, a:link, a:visited, a:active, a:hover {
             url('/images/pointer.cur'), pointer!important;}
 </style>
 
+
 </head>
 <body onselectstart="return false" ondragstart="return false" draggable="false">
 
-    <main id="container">
-        <section id="glass">
 
-            <!-- LEFT -->
-            <div id="dashboard">
-                <div class="user">
-                    <span class="usericon">
-                        <img src="images/moi.png">
-                        <h3>Priya</h3>
-                        <p>Bon Bon Harry Potter</p>
-                    </span>
-                    
-                    <div class="links">
-                        <div class="link">
-                            <i class="cp cp-pacman-o"></i> 
-                            <h2><a href="./about">About</a></h2>
-                        </div>
-                        <div class="link">
-                            <i class="cp cp-envelope-o"></i> 
-                            <h2><a href="./contact">Contact</a></h2>
-                        </div>
-                        <div class="link">
-                            <i class="cp cp-home"></i> 
-                            <h2><a href="./">Return</a></h2>
-                        </div>
-                    </div>
-
-
-                </div>
+    <div id="container">
+        <div id="inner-container">
+            
+            <!-- Header -->
+            <div class="header">
+                <a href="https://iampriya.com/contact"> 
+                    <span class="subcontact"> CONTACT </span>
+                </a>
             </div>
+            
+            
+            <div id="subinner-container">
 
-            <!-- RIGHT -->
-            <div id="profile">
-                <div class="cards">
-                    <div class="card">
-                        <h2>Whatever</h2>
-                        <p>
-                          Test Test
-                        </p>
+                
+                <!-- greetings -->
+                <div class="postbody">
+                    <div class="subheader">
+                        <h1>✨Hello, 👋 I am Priya!✨</h1>
+                        <h3>I am currently pursuing a part-time diploma in cybersecurity!</h3>
                     </div>
+                    <p class="sentence" align="center">
+                        And while I am building my new career path brick by brick,
+                        
+                        <br />
+                        
+                        I have laid out a following list of projects I have worked on over the years till date. 
+                        
+                        <br />
+                   
+                        All coding-related projects are built from scratch using Visual Studio Code and Sublime Text. 
+                        
+                        <br /> <br />
+                    </p>
+                </div>
 
-                    <div class="work">
-                        <a href="/services.html">
-                        <h1>Work with me</h1>
-                        <img src="images/Content structure-amico.png" width="180" height="auto">
+
+                
+                <!-- Languages and Tools -->
+                <div class="postbody">
+                    <div id="languages-and-tools">
+                        <h3 class="title01">🔧 Languages and Tools:</h3>
+        
+                        <!-- Language stats -->
+                        <div class="lang-card">
+                          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=priya2075&amp;show_icons=true&amp;locale=en&amp;layout=compact&amp;theme=radical" alt="priya2075" />
+                        </div>
+            
+                        
+                         <div class="lang-tools">
+                            <!-- HTML5 -->
+                            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /> 
+                            </a> 
+                            <!-- CSS -->
+                            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /> 
+                            </a> 
+                            <!-- JAVASCRIPT -->
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="33" height="33" />
+                            </a> 
+                            <!-- BOOTSTRAP -->
+                            <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="35" height="35" /> 
+                            </a> 
+                            <!-- PYTHON -->
+                            <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" /> 
+                            </a> 
+                            <!-- LINUX -->
+                            <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="35" height="35" /> 
+                            </a> 
+                            <br /> <br />
+                            <!-- Vscode -->
+                            <a href="https://visualstudio.microsoft.com/" target="_blank" rel="noreferrer"> 
+                                <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&amp;logo=visual%20studio%20code&amp;logoColor=white" alt="Vscode" /> 
+                            </a> 
+                            <!-- Sublime Text -->
+                            <a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> 
+                                <img src="https://img.shields.io/badge/sublime_text-%23575757.svg?&amp;style=flat&amp;logo=sublime-text&amp;logoColor=important" alt="Sublime Text" /> 
+                            </a> 
+                            <!-- GitHub -->
+                            <a href="https://github.com/priya2075" target="_blank" rel="noreferrer"> 
+                                <img src="https://img.shields.io/badge/GitHub-100000?style=flat&amp;logo=github&amp;logoColor=white" alt="GitHub" /> 
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <!-- Projects -->
+                <div class="postbody">
+                    <div id="my-projects">
+                        <h3 class="title01">💟 My Projects</h3>
+                        
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Project Name</th>
+                              <th>Languages &amp; Tools</th>
+                              <th>Video</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><a href="https://github.com/priya2075/Pentesting-Web-Application-Report">Penetration Testing &amp; Report</a></td>
+                              <td>Kali Linux</td>
+                              <td align="center"><a href="https://www.youtube.com/watch?v=0mozZx0MLfE"><i class="cp cp-youtube"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td>Virtualization (vMotion Live Migration)</td>
+                              <td>VMware</td>
+                              <td align="center"><a href="https://www.youtube.com/watch?v=BaRsem3CE8Q"><i class="cp cp-youtube"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="https://github.com/priya2075/EFMAS">Estate Feedback Management Application System</a></td>
+                              <td>Javascript, HTML, CSS, Visual Studio Code</td>
+                              <td align="center"><a href="https://www.youtube.com/watch?v=eBHqSNuGV44"><i class="cp cp-youtube"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="https://github.com/priya2075/ESPS">I: Electronic Services and Protection Services Application</a></td>
+                              <td>Python, Visual Studio Code</td>
+                              <td align="center"><a href="https://www.youtube.com/watch?v=RoGEvgmnsQg"><i class="cp cp-youtube"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="https://github.com/priya2075/ESPS">II: Electronic Services and Protection Services Application</a></td>
+                              <td>Python, Visual Studio Code</td>
+                              <td align="center"><a href="https://www.youtube.com/watch?v=AtWkoOZ7RA0"><i class="cp cp-youtube"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="https://github.com/priya2075/SPAMS">So Power Automated Menu System</a></td>
+                              <td>Python + PyCryptodome, Visual Studio Code,</td>
+                              <td align="center">-</td>
+                            </tr>
+                          </tbody>
+                        </table>   
+                    </div>
+                </div>
+                
+            
+            
+                <!-- videos -->
+                <div class="postbody">
+                    <div id="videos">
+                        <h3 class="title01">📺 <a href="https://iampriya.com/videos">Click here to view YouTube Videos of my Projects</a></h3>
+
+                        <a href="https://www.youtube.com/watch?v=ogRh422WlFk" target="_blank" rel="noreferrer">
+                            <img src="https://ytcards.demolab.com/?id=ogRh422WlFk&amp;title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019" title="ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019" />
                         </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=BaRsem3CE8Q" target="_blank" rel="noreferrer">
+                            <img src="https://ytcards.demolab.com/?id=BaRsem3CE8Q&amp;title=ITE+CET+HN+-+IT4044FP+-+Virtualization+-+Demo+on+vMotion+live+migration+by+Priya+M+-+FEB+2022&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="ITE CET HN - IT4044FP - Virtualization - Demo on vMotion live migration by Priya M - FEB 2022" title="ITE CET HN - IT4044FP - Virtualization - Demo on vMotion live migration by Priya M - FEB 2022" /></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=eBHqSNuGV44" target="_blank" rel="noreferrer">
+                            <img src="https://ytcards.demolab.com/?id=eBHqSNuGV44&amp;title=SP+-+IT8083+-+CLASS+1+-+JavaScript+Individual+Assignment+by+Priya+M+-+Aug+2022&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8083 - CLASS 1 - JavaScript Individual Assignment by Priya M - Aug 2022" title="SP - IT8083 - CLASS 1 - JavaScript Individual Assignment by Priya M - Aug 2022" /></a>
+                        
+                        <br />
+                        
+                        <a href="https://www.youtube.com/watch?v=R6uy9Z85jRo" target="_blank" rel="noreferrer">
+                            <img src="https://ytcards.demolab.com/?id=R6uy9Z85jRo&amp;title=SP+-+IT8081+-+CLASS+1+-+Information+Security+PPTX+Individual+Project+by+Priya+M+-+Aug+2022&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8081 - CLASS 1 - Information Security PPTX Individual Project by Priya M - Aug 2022" title="SP - IT8081 - CLASS 1 - Information Security PPTX Individual Project by Priya M - Aug 2022" /></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=0mozZx0MLfE" target="_blank" rel="noreferrer">
+                            <img src="https://ytcards.demolab.com/?id=0mozZx0MLfE&amp;title=SP+-+IT8087+-+CLASS+1+-+Ethical+Hacking+Final+CTF+1+to+4+exam+by+Priya+M+-+Feb+2023&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8087 - CLASS 1 - Ethical Hacking Final CTF 1 to 4 exam by Priya M - Feb 2023" title="SP - IT8087 - CLASS 1 - Ethical Hacking Final CTF 1 to 4 exam by Priya M - Feb 2023" /></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=RoGEvgmnsQg" target="_blank" rel="noreferrer">
+                            <img src="https://ytcards.demolab.com/?id=RoGEvgmnsQg&amp;title=SP+-+IT8085+-+CLASS+1+-+Python+Individual+Assignment+1+by+Priya+M+-+Ver2+0+-+May+2023&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8085 - CLASS 1 - Python Individual Assignment 1 by Priya M - Ver2 0 - May 2023" title="SP - IT8085 - CLASS 1 - Python Individual Assignment 1 by Priya M - Ver2 0 - May 2023" /></a>
+
+
                     </div>
                 </div>
+                
+                
+                
+                <!-- body -->
+                <div class="postbody">
+                    <div class="streakcards" align="center">
+                      <img align="left" src="https://github-readme-stats.vercel.app/api?username=priya2075&amp;show_icons=true&amp;locale=en&amp;theme=radical&amp;card_width=440" alt="priya2075" />
+                      <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=priya2075&amp;card_width=430&amp;theme=radical" alt="priya2075" />
+                    </div>
+                </div>
+                
+                
             </div>
-        </section>
-
-        <!-- BLOBS -->
-          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="topblob">
-            <defs>
-              <linearGradient id="gradienttop" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color: rgb(76, 161, 175);"></stop>
-                <stop offset="100%" style="stop-color: rgb(196, 224, 229);"></stop>
-              </linearGradient>
-            </defs>
-            <path id="topblob" d="M435.5,284.5Q405,319,385,348Q365,377,345,429Q325,481,278.5,450Q232,419,201,404Q170,389,111.5,391Q53,393,46.5,344Q40,295,69.5,256.5Q99,218,86.5,170Q74,122,118,109.5Q162,97,196.5,84Q231,71,277,48.5Q323,26,369,46.5Q415,67,436,112.5Q457,158,461.5,204Q466,250,435.5,284.5Z" fill="rgba(255, 255, 255, 0.7)" stroke-width="7px" stroke="url(#gradienttop)"></path>
-          </svg>
-          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="bottomblob">
-            <defs>
-              <linearGradient id="gradientbottom" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color: rgba(238, 205, 163, 0.5);"></stop>
-                <stop offset="100%" style="stop-color: rgb(239, 98, 159);"></stop>
-              </linearGradient>
-            </defs>
-            <path id="bottomblob" d="M429.5,296Q393,342,357,374Q321,406,268,448Q215,490,177,434Q139,378,117.5,336.5Q96,295,56.5,238.5Q17,182,63,134.5Q109,87,168.5,92Q228,97,284,74.5Q340,52,369.5,103.5Q399,155,432.5,202.5Q466,250,429.5,296Z" fill="rgba(255, 255, 255, 0.7)" stroke-width="7px" stroke="url(#gradientbottom)"></path>
-          </svg>
-    </main>
+        
+        <!-- Footer -->
+        <div id="footer">
+            <p>Github design by Priya</p>
+        </div>
+        
+        </div>
+    </div>
 </body>
 </html>
