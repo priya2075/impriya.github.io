@@ -78,15 +78,15 @@ a, a:focus, a:link, a:visited, a:active, a:hover {
                     <div class="links">
                         <div class="link">
                             <i class="cp cp-pacman-o"></i> 
-                            <h2><a href="/about">About</a></h2>
+                            <h2><a href="./about">About</a></h2>
                         </div>
                         <div class="link">
                             <i class="cp cp-envelope-o"></i> 
-                            <h2><a href="/contact">Contact</a></h2>
+                            <h2><a href="./contact">Contact</a></h2>
                         </div>
                         <div class="link">
                             <i class="cp cp-tumblr"></i> 
-                            <h2><a href="/">Blog</a></h2>
+                            <h2><a href="./">Blog</a></h2>
                         </div>
                     </div>
 
