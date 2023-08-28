@@ -32,7 +32,8 @@ html{
     background: #1c2429;
     background-repeat:repeat; 
     background-attachment:fixed; 
-    background-position:center;} 
+    background-position:center;
+    background-image: url('https://assets.iampriya.com/2641074.gif');} 
 body {      
     -ms-content-zooming: none;
     display: flex;
