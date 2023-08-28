@@ -32,9 +32,7 @@ html{
     background: #1c2429;
     background-repeat:repeat; 
     background-attachment:fixed; 
-    background-position:center;
-    background-image: url("https://static.tumblr.com/crddmbw/LuYs019ot/2641074.gif");
-} 
+    background-position:center;} 
 body {      
     -ms-content-zooming: none;
     display: flex;
@@ -428,8 +426,7 @@ td {
     color: var(--footer-color);
     background-repeat:repeat; 
     background-attachment:fixed; 
-    background-position:center;
-    background-image: url("https://static.tumblr.com/crddmbw/1aAs019jg/bg.gif");}
+    background-position:center;}
 .back-to-top {
     position: fixed;
     width: 20px;
