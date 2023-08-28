@@ -415,3 +415,34 @@ td {
     background-attachment:fixed; 
     background-position:center;
     background-image: url('https://assets.iampriya.com/spacetravel.gif');}
+.back-to-top:before{
+    content:"\e922";
+    font-family:'cappuccicons';}
+.back-to-top {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    bottom: 110px;
+    right: 50px;
+    padding: 12px;
+    text-align:center;
+    display: none;
+    font-size:14px;
+    line-height:24px;
+    overflow: hidden;
+    color:#fff;
+    text-shadow: 2px 2px 2px #FF0077;
+    -webkit-transition: 0.2s ease-in; 
+    -moz-transition: 0.2s ease-in; 
+    transition: 0.2s ease-in; 
+    border-radius: 50%;
+    box-shadow: 0 0 1rem 0 rgba(255, 255, 255, .2); 
+    background-color: rgba(255, 255, 255, .25);
+    backdrop-filter: blur(5px);}
+.back-to-top:hover {
+    color:#fff;
+    text-shadow: 2px 2px 2px #FF0077;
+    -webkit-transition: 0.2s ease-out; 
+    -moz-transition: 0.2s ease-out; 
+    transition: 0.2s ease-out;
+    background-color:#FAD155!important;}
