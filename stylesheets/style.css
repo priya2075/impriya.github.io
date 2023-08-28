@@ -430,3 +430,31 @@ td {
     background-attachment:fixed; 
     background-position:center;
     background-image: url("https://static.tumblr.com/crddmbw/1aAs019jg/bg.gif");}
+.back-to-top {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    bottom: 110px;
+    right: 50px;
+    padding: 15px;
+    text-align:center;
+    display: none;
+    font-size:14px;
+    overflow: hidden;
+    border-radius: 50%;
+    color:#444444;
+    -webkit-transition: 0.2s ease-in; 
+    -moz-transition: 0.2s ease-in; 
+    transition: 0.2s ease-in;
+    filter: dropshadow(color=rgba(238, 235, 228, .3), offx=2, offy=2);
+    -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, .2);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .2);
+    background-color:#fff!important;}
+.back-to-top:hover {
+    color:#fff;
+    text-shadow: 2px 2px 2px #FF0077;
+    -webkit-transition: 0.2s ease-out; 
+    -moz-transition: 0.2s ease-out; 
+    transition: 0.2s ease-out;
+    background-color:#FAD155!important;}
