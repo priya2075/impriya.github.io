@@ -202,7 +202,7 @@ i, em, italic {font-style: italic;}
 .header {
     height: 450px;
     margin: 0 auto 20px 0;
-    background-image: url('https://64.media.tumblr.com/722fb07f13764fb24e8b3739d20c2c9c/ff7b7fd2c7453fa1-ff/s1280x1920/03f3388017974120a109da5a6c1df75b57c6dcf5.gif');
+    background-image: url('https://assets.iampriya.com/header.gif');
     background-position: center;
     background-size: contain !important;
     -webkit-box-shadow: inset 0px 4px 10px -3px rgba(50, 50, 50, 0.75);
@@ -428,6 +428,9 @@ td {
     background-repeat:repeat; 
     background-attachment:fixed; 
     background-position:center;}
+.back-to-top:before{
+    content:"\e922";
+    font-family:'cappuccicons';}
 .back-to-top {
     position: fixed;
     width: 20px;
