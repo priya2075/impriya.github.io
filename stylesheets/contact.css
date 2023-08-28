@@ -413,4 +413,5 @@ td {
     color: var(--footer-color);
     background-repeat:repeat; 
     background-attachment:fixed; 
-    background-position:center;}
+    background-position:center;
+    background-image: url('https://assets.iampriya.com/spacetravel.gif');}
