@@ -3,18 +3,21 @@
 <html>
 <head>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", async function() {
+            // Fetch the content of template.html
+            const response = await fetch('../template.html');
+            const templateContent = await response.text();
+
             // Set the title and content
-            document.getElementById("page-title").textContent = "Page Two";
-            document.getElementById("page-content").innerHTML = `
-                <h1>Welcome to Page Two</h1>
-                <p>This is the content of Page Two.</p>
-            `;
+            document.title = "Page Two";
+            document.getElementById("page-content").innerHTML = templateContent;
         });
     </script>
-    <script src="../template.html"></script> <!-- Adjust the relative path here -->
 </head>
 <body>
+    <!-- Content placeholder -->
+    <div id="page-content">
+        <!-- Dynamic content will be inserted here -->
+    </div>
 </body>
 </html>
-
