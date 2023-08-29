@@ -10,7 +10,7 @@
 
             // Set the title and content
             document.title = "Kali quick basic guide";
-            document.getElementById("page-content").innerHTML = pageTwoContent;
+            document.getElementById("iframe-container").innerHTML = pageTwoContent;
         });
     </script>
     <script src="../template.html"></script> <!-- Include the template script -->
@@ -23,10 +23,9 @@
             <h1 id="page-title">✨Kali quick basic guide✨</h1>
             <h3>📃<a target="_blank" href="https://assets.iampriya.com/pages/kali-quick-basic-guide.html">View raw</a></h3>
         </div>
-        <p>
-            <iframe id="myiframe" frameborder="0" scrolling="yes" width="100%" height="1000px" max-height="100%" src="https://assets.iampriya.com/pages/kali-quick-basic-guide.php"></iframe>
-        </p>
-                
+        <div id="iframe-container">
+            <iframe id="myiframe" frameborder="0" scrolling="yes" width="100%" height="600px" src="https://assets.iampriya.com/pages/kali-quick-basic-guide.php"></iframe>
+        </div>
     </div>
 </body>
 </html>
