@@ -529,8 +529,28 @@ header[id="video_title"] {
     border-radius: 7px;
     margin: 0 10px;}
 
-/* --------------------------------------------- Footer */   
+/* --------------------------------------------- Error */   
+header[id="error_header"] {
+    text-align: center;
+    font-size: 4.2rem;
+    margin-bottom: 25px!important;
+    font-weight: 400 !important;
+    color: var(--default-color);
+    font-family: var(--h1-font);}
+.error_msg {
+    text-align: center;
+    margin: -300px auto 100px auto;}
+.errorcontent { 
+    margin: 0 auto!important;}
+.errorcontent p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 95px!important;
+    font-weight: 900 !important;
+    color: var(--default-color);
+    font-family: var(--h1-font);}
 
+/* --------------------------------------------- Footer */   
 #footer { 
     clear: both; 
     width: 100%;
