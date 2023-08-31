@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
 <!--[if IE 9]><html class="lt-ie10"> <![endif]-->
-<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]--> 
 
-  
+   
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -11,19 +12,19 @@
     <meta http-equiv="ImageToolbar" content="false"> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8; en" />
     
-    <title>I am Priya</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <title>Priya - Portfolio</title>
     <link rel="shortcut icon" href="/images/favicon.ico"> 
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
 
     <!-- Win8 tiles -->
     <meta name="msapplication-TileImage" content="/favicon-180.png">
     <meta name="msapplication-TileColor" content="#5BA8AC"/>
     <meta name="application-name" content="I am Priya" />
-  
+
     <!-- http://t.co/dKP3o1e -->  
-    <meta name="HandheldFriendly" content="True" />
+    <meta name="HandheldFriendly" content="True" />  
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />  
     <meta name="apple-mobile-web-app-capable" content="yes" /> 
@@ -34,267 +35,348 @@
     <meta name="pinterest-rich-pin" content="false" />
     
     <link rel="canonical" href="https://iampriya.com/" />
-
-    <!-- Icons from https://cappuccicons.com/ -->
-    <link href="https://icons.cappuccicons.com/cpf.css" rel="stylesheet">
+    
+     <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+     <!-- Include Font Awesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta3/css/all.min.css">
 
     <!-- Google Webfonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
     
-    <link href="/stylesheets/style.css" rel="stylesheet">
+
+
 
 
 
 <style type="text/css">
 :root {
-    --body-font: 'Poppins', sans-serif;
-    --h1-color: #fe428e;
-    --h2-color: #fe428e;
-    --h3-color: #f8d847;
-    --subheader-color: #f8d847;
-    --sentence-color: #a9fef7;
-    --table-color: #a9fef7;
-    --th-color: #3572a5;
-    --tr-color: #178600;
-    --footer-color: #f8d847;}
-
-html, body, .body, document, function, textarea {
-  cursor: url('https://assets.iampriya.com/default.png'), 
-          url('https://assets.iampriya.com/default.cur'), 
-          default!important;} 
-a, a:link, a:active, a:visited, h3 a:link, h3 a:active, h3 a:visited, .back-to-top, .back-to-top:hover {
-  cursor: url('https://assets.iampriya.com/handpointing.png'), 
-          url('https://assets.iampriya.com/handpointing.cur'), 
-          pointer!important;}
-  
+    --theme-color: #1e2d32;
+    --themefont-color: rgba(223,64,94, .87);
+    --default-color: #f6d59c;
+    --grey-color: #e2e8f0;
+    --dropshadow-color: #122040;
+    --intro-color: #f6d59c;
+    --mainlink-color: #f6d59c;
+    --mainlinkhover-color: rgba(223,64,94, .87); /* df405e */
+    --h1-color: #f6d59c;
+    --h2-color: rgba(223,64,94, .87);
+    --h3-color: #f6d59c;
+    --th-color: #091930;
+    --tr-color: #f8d847;
+    --footer-color: #f6d59c;
+    --card-color: rgba(223,64,94, .77);
+    --neon0-color: rgba(128,224,214, 0.05);
+    --neon1-color: rgba(128,224,214,.25);
+    --neon2-color: rgba(223,64,94, .50);
+    --neon3-color: rgba(246, 213, 156, .75);
+    --neon4-color: rgba(246, 213, 156, .97);
+    --body-font: 'Inconsolata', monospace;
+    --h1-font: 'Inconsolata', monospace;
+    --h2-font: 'Inconsolata', monospace;
+    --h3-font: 'Inconsolata', monospace;
+    --welcome-font: 'Beth Ellen', cursive !important;
+    --intro-font: 'Inconsolata', monospace !important;
+    --navlinks-font: 'Inconsolata', monospace;}
 </style>
 
+<script src="https://assets.iampriya.com/javascripts/obfuscate.js"></script>        
 
 </head>
-<body onselectstart="return false" ondragstart="return false" draggable="false">
 
+<body class="antialiased" data-bs-spy="scroll" data-bs-target="#navbar" onselectstart="return false" ondragstart="return false" draggable="false">
 
-    <div id="container">
-        <div id="inner-container">
-            
-            <!-- Header -->
-            <div class="header">
-                <a href="https://iampriya.com/contact"> 
-                    <span class="subcontact"> CONTACT </span>
+    <!-- Navbar -->
+    <nav id="navbar" role="navigation" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+        <div class="rightlinks">
+        
+            <a class="navlink" href="#skills">01. Skills </a>
+            <a class="navlink" href="#projects">02. Projects </a>
+            <a class="navlink" href="#videos">03. Videos </a>
+
+        </div>
+    </nav>
+        
+        
+        
+    <!-- Main -->
+    <main id="container" role="main">
+        <!-- Header -->
+        <header id="welcome">
+
+            <div class="pagetitle fancies" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1400">
+                <a href="/">
+                    <span class="bouncy">
+                    <span class="emoji">
+                    😄  
+                    </span> 
+                    Hi, <br /><br />I am Priya!</span>
                 </a>
-                <div id="main_blogtitle" class="fancies">
-                    <a href="/"><span class="bouncy">2075</span></a>
-                </div>
             </div>
-            
-            
-            <div id="subinner-container">
 
-                
-                <!-- greetings -->
-                <div class="postbody">
-                    <div class="subheader">
-                        <h1>✨Hello, 👋 I am Priya!✨</h1>
-                        <h3>I am currently pursuing a part-time diploma in cybersecurity!</h3>
-                    </div>
-                    <p class="sentence" align="center">
-                        And while I am building my new career path brick by brick,
-                        
-                        <br />
-                        
-                        I have laid out a following list of projects I have worked on over the years till date. 
-                        
-                        <br />
-                   
-                        All coding-related projects are built from scratch using Visual Studio Code and Sublime Text. 
-                        
-                        <br /> <br />
-                    </p>
-                </div>
+            <div class="intro" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1400">
+                 <p>I am currently pursuing a part-time diploma in cybersecurity. While that is one of my interest, my main interest lies with coding!</p>
+            </div>
 
-
-                
-                <!-- Languages and Tools -->
-                <div class="postbody">
-                    <div id="languages-and-tools">
-                        <h3 class="title01">🔧 Languages and Tools:</h3>
+                 
+            <div class="hellome" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600">
+                Say Hi: <a id="email-link">mail[at]iampriya[dot]com</a>
+             </div>
+             
+        </header>
         
-                        <!-- Language stats -->
-                        <div class="lang-card">
-                          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=priya2075&show_icons=true&locale=en&layout=compact&theme=radical" alt="priya2075" />
-                        </div>
+        
+        
             
-                        <!-- Language tools -->
-                        <div class="lang-tools">
-                          <!-- HTML5 -->
-                          <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-                              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /> 
-                          </a> 
-                          <!-- CSS -->
-                          <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-                              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /> 
-                          </a> 
-                          <!-- JAVASCRIPT -->
-                          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-                              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="33" height="33" />
-                          </a> 
-                          <!-- BOOTSTRAP -->
-                          <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
-                              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="35" height="35" /> 
-                          </a> 
-                          <!-- PYTHON -->
-                          <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-                              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" /> 
-                          </a> 
-                          <!-- LINUX -->
-                          <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
-                              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="35" height="35" /> 
-                          </a> 
-                          <br /> <br />
-                          <!-- Vscode -->
-                          <a href="https://visualstudio.microsoft.com/" target="_blank" rel="noreferrer"> 
-                              <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&amp;logo=visual%20studio%20code&amp;logoColor=white" alt="Vscode" /> 
-                          </a> 
-                          <!-- Sublime Text -->
-                          <a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> 
-                              <img src="https://img.shields.io/badge/sublime_text-%23575757.svg?&amp;style=flat&amp;logo=sublime-text&amp;logoColor=important" alt="Sublime Text" /> 
-                          </a> 
-                          <!-- GitHub -->
-                          <a href="https://github.com/priya2075" target="_blank" rel="noreferrer"> 
-                              <img src="https://img.shields.io/badge/GitHub-100000?style=flat&amp;logo=github&amp;logoColor=white" alt="GitHub" /> 
-                          </a> 
-                      </div>
+        <div id="inner-container"><!-- 01. inner-container -->
+            <div id="subinner-container "> <!-- 02. subinner-container -->
+
+                
+                <!-- Skills -->
+                <section id="skills" name="skills" aria-label="skils" class="skills unit1of5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="700">
+                    <div class="skills_list">
+                    
+                        <article> 
+                            <header id="skills_header">01. SKILLS</header>
+                        </article>
+                        
+                        <article>
+                            <ul>
+                            <span class="skills_title">LANGUAGES</span>
+                              <li>Python</li>
+                              <li>Javascript</li>
+                              <li>HTML5</li>
+                              <li>CSS3</li>
+                              <li>ASP.NET</li>
+                            </ul>
+                        </article>
+                        
+                        <article>
+                            <ul>
+                            <span class="skills_title">TOOLS</span>
+                              <li>Cisco Packet Tracer</li>
+                              <li>Fortinet</li>
+                              <li>Wireshark</li>
+                              <li>Kali Linux</li>
+                              <li>VMware</li>
+                              <li>Visual Studio Code</li>
+                              <li>Visual Studio Community</li>
+                              <li>Github</li>
+                            </ul>
+                        </article>
+                        
+                        <article>
+                            <ul> 
+                            <span class="skills_title">SKILL SETS</span>
+                                <li>Network Configuration</li>
+                                <li>Network Troubleshooting</li>
+                                <li>Packet Analysis</li>
+                                <li>Firewalls and IDS</li>
+                                <li>Penetration Testing</li>
+                                <li>Vulnerability Assessment</li>
+                            </ul>
+                        </article>
+                        
                     </div>
-                </div>
-                
-                
-                
+                </section>
+
+
+
+
                 <!-- Projects -->
-                <div class="postbody">
-                    <div id="my-projects">
-                        <h3 class="title01">💟 My Projects</h3>
-                        
-                        <table>
-                          <thead>
-                            <tr>
-                              <th>Project Name</th>
-                              <th>Languages &amp; Tools</th>
-                              <th>Video</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td><a href="https://github.com/priya2075/Pentesting-Web-Application-Report" target="_blank" rel="me">Penetration Testing &amp; Report</a></td>
-                              <td>Kali Linux</td>
-                              <td align="center"><a href="https://www.youtube.com/watch?v=0mozZx0MLfE" target="_blank" rel="me"><i class="cp cp-youtube"></i></a></td>
-                            </tr>
-                            <tr>
-                              <td><a href="https://github.com/priya2075/vMotion-virtualization-report" target="_blank" rel="me">Virtualization (vMotion Live Migration)</a></td>
-                              <td>VMware</td>
-                              <td align="center"><a href="https://www.youtube.com/watch?v=BaRsem3CE8Q" target="_blank" rel="me"><i class="cp cp-youtube"></i></a></td>
-                            </tr>
-                            <tr>
-                              <td><a href="https://github.com/priya2075/EFMAS" target="_blank" rel="me">Estate Feedback Management Application System</a></td>
-                              <td>Javascript, HTML, CSS, Visual Studio Code</td>
-                              <td align="center"><a href="https://www.youtube.com/watch?v=eBHqSNuGV44" target="_blank" rel="me"><i class="cp cp-youtube"></i></a></td>
-                            </tr>
-                            <tr>
-                              <td><a href="https://github.com/priya2075/ESPS" target="_blank" rel="me">I: Electronic Services and Protection Services Application</a></td>
-                              <td>Python, Visual Studio Code</td>
-                              <td align="center"><a href="https://www.youtube.com/watch?v=RoGEvgmnsQg" target="_blank" rel="me"><i class="cp cp-youtube"></i></a></td>
-                            </tr>
-                            <tr>
-                              <td><a href="https://github.com/priya2075/ESPS" target="_blank" rel="me">II: Electronic Services and Protection Services Application</a></td>
-                              <td>Python, Visual Studio Code</td>
-                              <td align="center"><a href="https://www.youtube.com/watch?v=AtWkoOZ7RA0" target="_blank" rel="me"><i class="cp cp-youtube"></i></a></td>
-                            </tr>
-                          </tbody>
-                        </table>   
-                    </div>
-                </div>
-                
-            
-            
-                <!-- videos -->
-                <div class="postbody">
-                    <div id="videos">
-                        <h3 class="title01">📺 <a href="https://iampriya.com/videos">Click here to view YouTube Videos of my Projects</a></h3>
+                <section id="projects" name="projects" aria-label="projects" class="projects unit2of5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="700">
+                    <div class="project_grid">
+                    
 
-                        <a href="https://www.youtube.com/watch?v=ogRh422WlFk" target="_blank" rel="me">
-                            <div class="videos_row1">
-                                <img src="https://ytcards.demolab.com/?id=ogRh422WlFk&amp;title=ITE+Nitec+-+IT+Essentials+Individual+Assignment+by+Priya+M+-+2019&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019" title="ITE Nitec - IT Essentials Individual Assignment by Priya M - 2019" />
+                        <article> 
+                            <header id="projects_title">02. Projects</header>
+                        </article>
+                        
+                        <div class="gridtrex">
+
+                            <div class="grid-item">
+                                <div class="gittybox">
+                                    <div class="gittyheader">
+                                        <a target="_blank" href="https://github.com/priya2075/Pentesting-Web-Application-Report"><i class="fab fa-github"></i></a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=0mozZx0MLfE&ab_channel=Preeya"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                    <div class="gittytitle">Pentesting <br />Web Application Report</div>
+                                    <div class="gittydescription">The report details the steps taken to find the vulnerabilities within the web application and what practical prevention measures to take.</div>
+                                    <div class="gittytags">
+                                    <span>Kali Linux</span>
+                                    </div>
+                                </div>      
                             </div>
-                        </a>
                         
-                        <div class="spacer"></div>
-                        
-                        <a href="https://www.youtube.com/watch?v=BaRsem3CE8Q" target="_blank" rel="me">
-                            <div class="videos_row1">
-                                <img src="https://ytcards.demolab.com/?id=BaRsem3CE8Q&amp;title=ITE+CET+HN+-+IT4044FP+-+Virtualization+-+Demo+on+vMotion+live+migration+by+Priya+M+-+FEB+2022&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="ITE CET HN - IT4044FP - Virtualization - Demo on vMotion live migration by Priya M - FEB 2022" title="ITE CET HN - IT4044FP - Virtualization - Demo on vMotion live migration by Priya M - FEB 2022" />
+                            <div class="grid-item">
+                                <div class="gittybox">
+                                    <div class="gittyheader">
+                                        <a target="_blank" href="https://github.com/priya2075/vMotion-virtualization-report"><i class="fab fa-github"></i></a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=BaRsem3CE8Q"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                    <div class="gittytitle">vMotion  <br />Virtualization Report</div>
+                                    <div class="gittydescription">Perform live migration for both storage server and backup server.</div>
+                                    <div class="gittytags">
+                                    <span>VMware</span>
+                                    </div>
+                                </div>      
                             </div>
-                        </a>
-                        
-                        <div class="spacer"></div>
-                        
-                        <a href="https://www.youtube.com/watch?v=eBHqSNuGV44" target="_blank" rel="me">
-                            <div class="videos_row1">
-                                <img src="https://ytcards.demolab.com/?id=eBHqSNuGV44&amp;title=SP+-+IT8083+-+CLASS+1+-+JavaScript+Individual+Assignment+by+Priya+M+-+Aug+2022&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8083 - CLASS 1 - JavaScript Individual Assignment by Priya M - Aug 2022" title="SP - IT8083 - CLASS 1 - JavaScript Individual Assignment by Priya M - Aug 2022" />
+             
+                            <div class="grid-item">
+                                <div class="gittybox">
+                                    <div class="gittyheader">
+                                        <a target="_blank" href="https://github.com/priya2075/EFMAS"><i class="fab fa-github"></i></a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=eBHqSNuGV44&ab_channel=Preeya"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                    <div class="gittytitle">Estate Feedback <br />Management Application <br />System</div>
+                                    <div class="gittydescription">This is an application that mainly uses JavaScript to handle CRUD functions.</div>
+                                    <div class="gittytags">
+                                    <span>Javascript</span>
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>VS Code</span>
+                                    </div>
+                                </div>      
                             </div>
-                        </a>
-                        
-                        
-                        <a href="https://www.youtube.com/watch?v=R6uy9Z85jRo" target="_blank" rel="me">
-                            <div class="videos_row2">
-                                <img src="https://ytcards.demolab.com/?id=R6uy9Z85jRo&amp;title=SP+-+IT8081+-+CLASS+1+-+Information+Security+PPTX+Individual+Project+by+Priya+M+-+Aug+2022&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8081 - CLASS 1 - Information Security PPTX Individual Project by Priya M - Aug 2022" title="SP - IT8081 - CLASS 1 - Information Security PPTX Individual Project by Priya M - Aug 2022" />
+  
+                            <div class="grid-item">
+                                <div class="gittybox">
+                                    <div class="gittyheader">
+                                        <a target="_blank" href="https://github.com/priya2075/ESPS"><i class="fab fa-github"></i></a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=RoGEvgmnsQg&ab_channel=Preeya"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                    <div class="gittytitle">Part I: <br />Electronic Services and <br />Protection Services <br />Application</div>
+                                    <div class="gittydescription"> Use of Python to create a CRUD menu - Use of dictionary, tuples, and lists.</div>
+                                    <div class="gittytags">
+                                    <span>Python</span>
+                                    <span>VS Code</span>
+                                    </div>
+                                </div>      
                             </div>
-                        </a>
-                        
-                        <div class="spacer"></div>
-                       
-                        <a href="https://www.youtube.com/watch?v=0mozZx0MLfE" target="_blank" rel="me">
-                            <div class="videos_row2">
-                                <img src="https://ytcards.demolab.com/?id=0mozZx0MLfE&amp;title=SP+-+IT8087+-+CLASS+1+-+Ethical+Hacking+Final+CTF+1+to+4+exam+by+Priya+M+-+Feb+2023&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8087 - CLASS 1 - Ethical Hacking Final CTF 1 to 4 exam by Priya M - Feb 2023" title="SP - IT8087 - CLASS 1 - Ethical Hacking Final CTF 1 to 4 exam by Priya M - Feb 2023" />
+
+                            <div class="grid-item">
+                                <div class="gittybox">
+                                    <div class="gittyheader">
+                                        <a target="_blank" href="https://github.com/priya2075/ESPS"><i class="fab fa-github"></i></a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=AtWkoOZ7RA0&ab_channel=Preeya"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                    <div class="gittytitle">Part II: <br />Electronic Services and <br />Protection Services <br />Application</div>
+                                    <div class="gittydescription"> Socket Programming in Python.</div>
+                                    <div class="gittytags">
+                                    <span>Python</span>
+                                    <span>VS Code</span>
+                                    </div>
+                                </div>      
                             </div>
-                        </a>
-    
-                        <div class="spacer"></div>
-    
-                        <a href="https://www.youtube.com/watch?v=RoGEvgmnsQg" target="_blank" rel="me">
-                            <div class="videos_row2">
-                                <img src="https://ytcards.demolab.com/?id=RoGEvgmnsQg&amp;title=SP+-+IT8085+-+CLASS+1+-+Python+Individual+Assignment+1+by+Priya+M+-+Ver2+0+-+May+2023&amp;lang=en&amp;&amp;background_color=%230d1117&amp;title_color=%23ffffff&amp;stats_color=%23dedede&amp;max_title_lines=1&amp;width=250&amp;border_radius=5" alt="SP - IT8085 - CLASS 1 - Python Individual Assignment 1 by Priya M - Ver2 0 - May 2023" title="SP - IT8085 - CLASS 1 - Python Individual Assignment 1 by Priya M - Ver2 0 - May 2023" />
+
+
+                            <div class="grid-item">
+                                <div class="gittybox">
+                                    <div class="gittyheader">
+                                        <a target="_blank" href="https://github.com/priya2075/ASP-ITessentials-project-2019"><i class="fab fa-github"></i></a>
+                                    </div>
+                                    <div class="gittytitle">ASP ITessentials project 2019</div>
+                                    <div class="gittydescription">Use of ASP.NET to create a CRUD application with payment checkout.</div>
+                                    <div class="gittytags">
+                                    <span>ASP.NET</span>
+                                    <span>VS Studio Community</span>
+                                    </div>
+                                </div>      
                             </div>
-                        </a>
+
+
+                        </div><!-- END OF MASONRY -->
+                 
                     </div>
-                </div>
+                </section>
                 
                 
+
                 
-                <!-- streak-stats -->
-                <div class="postbody">
-                    <div class="streakcards" align="center">
-                      <img align="left" src="https://github-readme-stats.vercel.app/api?username=priya2075&show_icons=true&locale=en&theme=radical&card_width=440" alt="priya2075" />
-                      <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=priya2075&card_width=430&theme=radical" alt="priya2075" />
+                
+                <!-- videos -->
+                <section id="videos" name="videos" aria-label="videos" class="videos unit3of5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="700">
+                    <div class="video_grid">
+
+                        <article> 
+                            <header id="video_title">03. Videos</header>
+                        </article>
+                        
+                        
+
+
+                        <div class="vidtrex">
+
+                            <div class="vid-item">
+                                <div class="videoBox">
+                                    <iframe 
+                                    src="https://www.youtube.com/embed/ogRh422WlFk?si=wxt-nA0zA3umgQeR" 
+                                    title="IT Essentials" 
+                                    frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>      
+                            </div>
+
+                            <div class="vid-item">
+                                <div class="videoBox">
+                                    <iframe 
+                                    src="https://www.youtube.com/embed/R6uy9Z85jRo?si=17srkcbVX638Znql" 
+                                    title="Information Security" 
+                                    frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>    
+                            </div>
+
+                        </div>
+
                     </div>
-                </div>
+                </section>
                 
-            </div>
-          
-        <div class="back-to-top"></div>
-          
-        <!-- Footer -->
-        <div id="footer">
-            <p>Github design by Priya</p>
-        </div>
+                
+                
+                
+                
+                
+                
+            </div><!-- /02. subinner-container -->
+            
+            <div class="back-to-top"></div>
+
+            <!-- Footer -->
+            <footer id="footer" class="clearfix" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="1000">
+                <ul>
+                    <li>&copy; Priya &mdash; (except where cited)</li>
+                    <li>Coded by Priya</li>
+                    <li>Design sketch by Brittany Chiang</li>
+                  </ul>
+            </footer>
         
-        </div>
-    </div>
+        </div><!-- /01. inner-container -->
+        
+    </main>
     
-    <!-- JS SCRIPTS -->   
-    <script src="/javascripts/script.min.js"></script>
-    <script src="/javascripts/script.js"></script>
+    
+    
+    
+    
+
+        
+<!-- JS SCRIPTS -->   
+<script src="https://assets.iampriya.com/javascripts/skripts.min.js"></script>
+<script src="https://assets.iampriya.com/javascripts/skripted.js"></script>
+<script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+
+<script>
+    AOS.init({   
+        easing: 'ease-out-back',
+        duration: 800
+    });  
+</script>
+
+
   
 </body>
 </html>
