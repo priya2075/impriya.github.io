@@ -539,7 +539,7 @@ header[id="error_header"] {
     font-family: var(--h1-font);}
 .error_msg {
     text-align: center;
-    margin: -220px auto 100px auto;}
+    margin: -180px auto 100px auto;}
 .errorcontent { 
     margin: 0 auto!important;}
 .errorcontent p {
