@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
 <!--[if IE 9]><html class="lt-ie10"> <![endif]-->
@@ -23,10 +22,7 @@
     <meta name="msapplication-TileColor" content="#5BA8AC"/>
     <meta name="application-name" content="I am Priya" />
 
-    <!-- http://t.co/dKP3o1e -->  
-    <meta name="HandheldFriendly" content="True" />  
-    <meta name="MobileOptimized" content="320" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>  
     <meta name="apple-mobile-web-app-capable" content="yes" /> 
     
     <meta name="googlebot" content="noarchive, noindex, noimageindex, nofollow, nosnippet, None" /> 
@@ -37,9 +33,10 @@
     <link rel="canonical" href="https://iampriya.com/" />
     
     <link rel="stylesheet" href="/stylesheets/style.css">
-     <!-- AOS -->
+    
+    <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-     <!-- Include Font Awesome CSS for icons -->
+    <!-- Include Font Awesome CSS for icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta3/css/all.min.css">
 
     <!-- Google Webfonts -->
@@ -48,102 +45,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
     
-
-
-
-
-
-<style type="text/css">
-:root {
-    --theme-color: #1e2d32;
-    --themefont-color: rgba(223,64,94, .87);
-    --default-color: #f6d59c;
-    --grey-color: #e2e8f0;
-    --dropshadow-color: #122040;
-    --intro-color: #f6d59c;
-    --mainlink-color: #f6d59c;
-    --mainlinkhover-color: rgba(223,64,94, .87); /* df405e */
-    --h1-color: #f6d59c;
-    --h2-color: rgba(223,64,94, .87);
-    --h3-color: #f6d59c;
-    --th-color: #091930;
-    --tr-color: #f8d847;
-    --footer-color: #f6d59c;
-    --card-color: rgba(223,64,94, .77);
-    --neon0-color: rgba(128,224,214, 0.05);
-    --neon1-color: rgba(128,224,214,.25);
-    --neon2-color: rgba(223,64,94, .50);
-    --neon3-color: rgba(246, 213, 156, .75);
-    --neon4-color: rgba(246, 213, 156, .97);
-    --body-font: 'Inconsolata', monospace;
-    --h1-font: 'Inconsolata', monospace;
-    --h2-font: 'Inconsolata', monospace;
-    --h3-font: 'Inconsolata', monospace;
-    --welcome-font: 'Beth Ellen', cursive !important;
-    --intro-font: 'Inconsolata', monospace !important;
-    --navlinks-font: 'Inconsolata', monospace;}
-</style>
-
-<script src="https://assets.iampriya.com/javascripts/obfuscate.js"></script>        
+    <script src="https://assets.iampriya.com/javascripts/obfuscate.js"></script>        
 
 </head>
 
-<body class="antialiased" data-bs-spy="scroll" data-bs-target="#navbar" onselectstart="return false" ondragstart="return false" draggable="false">
+<body class="antialiased" onselectstart="return false" ondragstart="return false" draggable="false">
 
     <!-- Navbar -->
-    <nav id="navbar" role="navigation" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+    <nav id="navbar" role="navigation">
         <div class="rightlinks">
         
-            <a class="navlink" href="#skills">01. Skills </a>
-            <a class="navlink" href="#projects">02. Projects </a>
-            <a class="navlink" href="#videos">03. Videos </a>
-
+            <a onclick="scrollToElement(this, 'skills')">i. Skills </a>
+            <a onclick="scrollToElement(this, 'projects')">ii. Projects </a>
+            <a onclick="scrollToElement(this, 'videos')">iii. Videos </a>
+        
         </div>
     </nav>
         
-        
-        
+    <!-- Header -->
+    <header id="welcome" role="header">
+        <div class="pagetitle fancies">
+            <a href="/">
+                <span class="bouncy">
+                <span class="emoji">
+                😄  
+                </span> 
+                Hi, <br /><br />I am Priya!</span>
+            </a>
+        </div>
+
+        <div class="intro">
+            <p>I am currently pursuing a part-time diploma in cybersecurity.</p>
+            <p>While that is one of my interest, my main interest is in coding!</p>
+        </div>
+
+        <div class="hellome">
+            Say Hi: <a id="email-link"></a>
+        </div>
+    </header>
+
     <!-- Main -->
     <main id="container" role="main">
-        <!-- Header -->
-        <header id="welcome">
+        <!-- 01. inner-container -->    
+        <div id="inner-container">
+            <!-- 02. subinner-container -->
+            <div id="subinner-container "> 
 
-            <div class="pagetitle fancies" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1400">
-                <a href="/">
-                    <span class="bouncy">
-                    <span class="emoji">
-                    😄  
-                    </span> 
-                    Hi, <br /><br />I am Priya!</span>
-                </a>
-            </div>
-
-            <div class="intro" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1400">
-                 <p>I am currently pursuing a part-time diploma in cybersecurity. While that is one of my interest, my main interest lies with coding!</p>
-            </div>
-
-                 
-            <div class="hellome" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600">
-                Say Hi: <a id="email-link">mail[at]iampriya[dot]com</a>
-             </div>
-             
-        </header>
-        
-        
-        
-            
-        <div id="inner-container"><!-- 01. inner-container -->
-            <div id="subinner-container "> <!-- 02. subinner-container -->
-
-                
                 <!-- Skills -->
-                <section id="skills" name="skills" aria-label="skils" class="skills unit1of5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="700">
+                <section id="skills" name="skills" aria-label="skills" class="unit1of3">
                     <div class="skills_list">
-                    
+
                         <article> 
                             <header id="skills_header">01. SKILLS</header>
                         </article>
-                        
+
                         <article>
                             <ul>
                             <span class="skills_title">LANGUAGES</span>
@@ -184,20 +139,15 @@
                     </div>
                 </section>
 
-
-
-
                 <!-- Projects -->
-                <section id="projects" name="projects" aria-label="projects" class="projects unit2of5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="700">
-                    <div class="project_grid">
-                    
+                <section id="projects" name="projects" aria-label="projects" class="unit2of3">
+                    <div class="project_grid"><!-- START OF PROJECTS -->
 
                         <article> 
                             <header id="projects_title">02. Projects</header>
                         </article>
                         
-                        <div class="gridtrex">
-
+                        <div class="gridtrex"> <!-- START OF MASONRY -->
                             <div class="grid-item">
                                 <div class="gittybox">
                                     <div class="gittyheader">
@@ -279,7 +229,7 @@
                                     <div class="gittyheader">
                                         <a target="_blank" href="https://github.com/priya2075/ASP-ITessentials-project-2019"><i class="fab fa-github"></i></a>
                                     </div>
-                                    <div class="gittytitle">ASP ITessentials project 2019</div>
+                                    <div class="gittytitle">ASP IT Essentials <br /> project 2019</div>
                                     <div class="gittydescription">Use of ASP.NET to create a CRUD application with payment checkout.</div>
                                     <div class="gittytags">
                                     <span>ASP.NET</span>
@@ -287,28 +237,19 @@
                                     </div>
                                 </div>      
                             </div>
-
-
                         </div><!-- END OF MASONRY -->
-                 
-                    </div>
+                    </div><!-- END OF PROJECTS -->
                 </section>
                 
                 
-
-                
-                
-                <!-- videos -->
-                <section id="videos" name="videos" aria-label="videos" class="videos unit3of5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="700">
-                    <div class="video_grid">
+                <!-- Videos -->
+                <section id="videos" name="videos" aria-label="videos" class="unit3of3">
+                    <div class="video_grid"><!-- START OF VIDEOS -->
 
                         <article> 
                             <header id="video_title">03. Videos</header>
                         </article>
                         
-                        
-
-
                         <div class="vidtrex">
 
                             <div class="vid-item">
@@ -331,53 +272,53 @@
                                 </div>    
                             </div>
 
+                            <div class="vid-item">
+                                <div class="videoBox">
+                                    <iframe 
+                                    src="https://www.youtube.com/embed/UzKLTOV7-gg?si=NSk-u8p0Nx_VUjtv" 
+                                    title="Full Virtualization" 
+                                    frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>    
+                            </div>
+
+                            <div class="vid-item">
+                                <div class="videoBox">
+                                    <iframe 
+                                    src="https://www.youtube.com/embed/eBHqSNuGV44?si=Qqx3Ah_DjsW0GE2t" 
+                                    title="EFMAS" 
+                                    frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>    
+                            </div>
+
                         </div>
 
-                    </div>
+                    </div><!-- END OF VIDEOS -->
                 </section>
-                
-                
-                
-                
-                
-                
+
                 
             </div><!-- /02. subinner-container -->
-            
-            <div class="back-to-top"></div>
-
-            <!-- Footer -->
-            <footer id="footer" class="clearfix" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600" data-aos-delay="1000">
-                <ul>
-                    <li>&copy; Priya &mdash; (except where cited)</li>
-                    <li>Coded by Priya</li>
-                    <li>Design sketch by Brittany Chiang</li>
-                  </ul>
-            </footer>
-        
         </div><!-- /01. inner-container -->
-        
     </main>
     
-    
-    
-    
+    <div class="back-to-top"></div>
+
+    <!-- Footer -->
+    <footer id="footer" class="clearfix">
+        <ul>
+            <li>&copy; 2023 Priya &mdash; All rights reserved.</li>
+            <li>Coded by Priya in Visual Studio Code</li>
+            <li>Design sketch by <a href="https://brittanychiang.com/" target="_blank">Brittany Chiang</a> & <a href="https://gurusabarish.github.io/" target="_blank">Guru Sabarish</a></li>
+            </ul>
+    </footer>
+
     
 
-        
 <!-- JS SCRIPTS -->   
-<script src="/javascripts/skripts.min.js"></script>
-<script src="/javascripts/skripted.js"></script>
-<script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
-
-<script>
-    AOS.init({   
-        easing: 'ease-out-back',
-        duration: 800
-    });  
-</script>
+<script src="https://iampriya.com/javascripts/skripts.min.js"></script>
+<script src="https://iampriya.com/javascripts/skripts.js"></script>
 
 
-  
 </body>
 </html>
