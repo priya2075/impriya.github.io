@@ -513,7 +513,7 @@ header[id="video_title"] {
     -moz-transition: 0.2s ease-out; 
     transition: 0.2s ease-out;
     background-color: var(--default-color)!important;}
-
+/* --------------------------------------------- Media Q */   
 @media screen and (max-width:1024px) {
     .intro, .hellome{
         font-size:2.25em;
@@ -546,6 +546,7 @@ header[id="video_title"] {
 @media only screen and (max-width: 768px) and (min-width: 320px)  {
     body, html, table, textarea {
         font-size: 14px;}
+    /* Navigation */
     nav[id="navbar"] {
         font-size: 1.1rem;  
         display: flex;
@@ -564,9 +565,9 @@ header[id="video_title"] {
         align-items: center;
         width: 100%;}
     .rightlinks a {
-        margin: 10px auto;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
         text-align: center;}
-    /* Navigation */
     /* Header */
     header[id="welcome"] > .pagetitle {
         margin-top: 100px;
@@ -583,7 +584,6 @@ header[id="video_title"] {
         text-align: center;  
         font-family: inherit;}
     .emoji {display: none;}
-
     /* For Skills Unit */
     .unit1of3 {
         padding: 50px 0;
@@ -619,7 +619,6 @@ header[id="video_title"] {
         display: none;}
     .skills_list li {
         text-align: center;}
-
     /* For Projects Unit */
     .unit2of3 {
         padding: 50px 0;
@@ -641,7 +640,6 @@ header[id="video_title"] {
         background-color: var(--theme-color);
         text-align: center;
         margin: -90px auto 30px auto;}
-
     /* For Videos Unit */
     .unit3of3 {
         display: none !important;
@@ -672,7 +670,6 @@ header[id="video_title"] {
         -webkit-border-radius: 7px; 
         -moz-border-radius: 7px; 
         border-radius: 7px;}
-    
     /* Footer */
     #footer {
         width: 70%;
