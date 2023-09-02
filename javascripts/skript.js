@@ -1,4 +1,5 @@
 
+
 //==================================================================================
 // Floating navigation bar
 window.addEventListener("scroll", () => {
@@ -15,6 +16,7 @@ window.addEventListener("scroll", () => {
 
 
 //==================================================================================
+// Highlight active element
 let lastId;
 const topMenu = $("#navbar .rightlinks");
 const topMenuHeight = topMenu.outerHeight() + 1;
