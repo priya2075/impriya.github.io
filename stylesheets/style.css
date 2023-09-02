@@ -38,7 +38,6 @@
     padding:0;}
 *:before,*:after {
     box-sizing: border-box;}
-
 html{
     font-family:var(--body-font);
     scroll-behavior:smooth;}
@@ -58,7 +57,6 @@ h3 a:link, h3 a:active, h3 a:visited,
 html,body{
     background-color: var(--theme-color);
     color: var(--themefont-color);}
-
 body, html, table, textarea { 
     font-weight:400;
     word-wrap: break-word;
@@ -117,7 +115,6 @@ b, big, bold, strong  {
     font-weight: 900;}
 i, em, italic {
     font-style: italic;} 
-
 /* --------------------------------------------- Navigation 1 */  
 nav[id="navbar"] {
     top: 0 !important;
@@ -157,7 +154,6 @@ nav[id="navbar"] {
 .rightlinks a.active {
     font-weight: 900 !important;
     color: var(--mainlinkhover-color) !important;}
-
 /* --------------------------------------------- Header */
 header[id="welcome"] {
     padding:120px 100px;
@@ -285,7 +281,6 @@ header[id="welcome"] > .hellome {
         transform:translateY(0);
     }
 }
-
 /* --------------------------------------------- Hierarchical Containers */
 #container {
     max-width: 1200px;
@@ -353,7 +348,6 @@ header[id="skills_header"] {
     margin-top: 10px;
     font-weight: 400;
     margin-bottom: 8px;}
-
 /* --------------------------------------------- Projects unit2of5 */   
 header[id="projects_title"] {
     text-align: left;
@@ -438,7 +432,6 @@ header[id="projects_title"] {
     padding: 3px 8px;
     border-radius: 3px;
     margin-right: 5px;}
-
 /* --------------------------------------------- Videos unit3of5 */   
 header[id="video_title"] {
     text-align: left;
@@ -464,27 +457,6 @@ header[id="video_title"] {
     -moz-border-radius: 7px; 
     border-radius: 7px;
     margin: 10px;}
-
-/* --------------------------------------------- Error */   
-header[id="error_header"] {
-    text-align: center;
-    font-size: 4.2rem;
-    margin-bottom: 25px!important;
-    font-weight: 400 !important;
-    color: var(--default-color);
-    font-family: var(--h1-font);}
-.error_msg {
-    text-align: center;}
-.errorcontent { 
-    margin: 40px auto 0 auto!important;}
-.errorcontent p {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 95px!important;
-    font-weight: 900 !important;
-    color: var(--default-color);
-    font-family: var(--h1-font);}
-
 /* --------------------------------------------- Footer */   
 #footer { 
     clear: both; 
@@ -541,11 +513,6 @@ header[id="error_header"] {
     -moz-transition: 0.2s ease-out; 
     transition: 0.2s ease-out;
     background-color: var(--default-color)!important;}
-
-
-
-
-
 
 @media screen and (max-width:1024px) {
     .intro, .hellome{
