@@ -233,7 +233,7 @@ header[id="welcome"] > .hellome {
         font-size:1.5em;
     }
 }
-@media only screen and (max-width: 768px) and (min-width: 540px)  {
+@media only screen and (max-width: 768px) and (min-width: 320px)  {
     /* Header */
     header[id="welcome"] > .pagetitle {
         margin-top: 100px;
