@@ -1,0 +1,21 @@
+{
+  "name": "Priya's Portfolio",
+  "short_name": "Priya",
+  "description": "A portfolio showcasing my projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e2d32",
+  "theme_color": "#1e2d32",
+  "icons": [
+    {
+      "src": "/images/favicon_16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
