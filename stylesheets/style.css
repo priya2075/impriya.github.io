@@ -570,7 +570,7 @@ header[id="video_title"] {
         text-align: center;}
     /* Header */
     header[id="welcome"] {
-        margin-top: 45px;
+        margin-top: 85px;
         margin-bottom: 65px;}
     header[id="welcome"] > .pagetitle {
         margin-top: 100px;
@@ -586,8 +586,8 @@ header[id="video_title"] {
         font-size: 1.4rem; 
         text-align: center;  
         font-family: inherit;
-        margin-top: 210px;
-        margin-bottom: 165px;}
+        margin-top: 220px;
+        margin-bottom: 177px;}
     .emoji {display: none;}
     /* For Skills Unit */
     .unit1of3 {
