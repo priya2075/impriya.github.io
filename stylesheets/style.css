@@ -605,7 +605,7 @@ header[id="video_title"] {
         color: var(--default-color);
         background-color: var(--theme-color);
         text-align: center;
-        margin: -90px auto 30px auto;}
+        margin: -70px auto 30px auto;}
     .skills_list article {
         display: flex;  
         flex-direction: column; 
