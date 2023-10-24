@@ -126,7 +126,6 @@ header[id="welcome"] > .hellome {
     color: var(--theme-color);}
 @supports (-webkit-text-stroke: 1px var(--theme-color)){
     .pagetitle,.pagetitle a{
-        background-color: var(--theme-color);
         -moz-text-fill-color:var(--theme-color);
         -webkit-text-fill-color:var(--theme-color);
         -webkit-text-stroke-color: var(--theme-color);
