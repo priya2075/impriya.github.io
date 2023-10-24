@@ -1,7 +1,7 @@
 /* Boogi Woogie Wu Css */
 
 :root {
-    --theme-color: #1e2d32;
+    --theme-color: rgb(30, 45, 50);
     --themefont-color: rgba(223,64,94, .87);
     --default-color: #f6d59c;
     --dropshadow-color: #122040;
