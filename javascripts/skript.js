@@ -121,7 +121,7 @@ $(() => {
 $(function() {
   var radialGlow = $("body").css("background-color"),
       x, y, xy, bgWebKit, bgMoz,
-      lightColor = "rgba(62,112,127,0.20)",
+      lightColor = "rgba(62,112,127,0.15)",
       gradientSize = 405;
   
       // Basic Demo
