@@ -113,3 +113,32 @@ $(() => {
 
     $(".videoBox").fitVids();
 });
+
+
+
+//==================================================================================
+// https://css-tricks.com/examples/MovingHighlight/
+$(function() {
+  var radialGlow = $("body").css("background-color"),
+      x, y, xy, bgWebKit, bgMoz,
+      lightColor = "rgba(62,112,127,0.20)",
+      gradientSize = 405;
+  
+      // Basic Demo
+      $('body').mousemove(function(e) {
+  
+          x  = e.pageX - this.offsetLeft;
+          y  = e.pageY - this.offsetTop;
+          xy = x + " " + y;
+  
+          bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(30, 45, 50,0.0))), " + radialGlow;
+          bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + radialGlow + " " + gradientSize + "px)";
+  
+          $(this)
+              .css({ background: bgWebKit })
+              .css({ background: bgMoz });
+  
+      }).mouseleave(function() {
+          $(this).css({ background: radialGlow });
+      });
+  });
