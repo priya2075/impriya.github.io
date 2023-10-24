@@ -1,7 +1,7 @@
 /* Boogi Woogie Wu Css */
 
 :root {
-    --theme-color: #1e2d32;
+    --theme-color: rgb(30, 45, 50);
     --themefont-color: rgba(223,64,94, .87);
     --default-color: #f6d59c;
     --grey-color: #e2e8f0;
@@ -13,6 +13,7 @@
     --h2-color: rgba(223,64,94, .87);
     --h3-color: #f6d59c;
     --header-color: #df405e;
+    --header-color2: #529600;
     --tag-color: #f6d59c;
     --skills_list-color: #f6d59c;
     --borderbottom-color: #529600;
@@ -205,7 +206,6 @@ header[id="welcome"] > .hellome {
     color: var(--theme-color);}
 @supports (-webkit-text-stroke: 1px var(--theme-color)){
     .pagetitle,.pagetitle a{
-        background-color: var(--theme-color);
         -moz-text-fill-color:var(--theme-color);
         -webkit-text-fill-color:var(--theme-color);
         -webkit-text-stroke-color: var(--theme-color);
@@ -303,8 +303,11 @@ header[id="welcome"] > .hellome {
 header[id="skills_header"],
 header[id="projects_title"],
 header[id="video_title"] {
-    color: var(--header-color);
+    color: var(--header-color2);
     font-family: var(--h1-font);}
+header[id="skills_header"],
+header[id="projects_title"],
+header[id="video_title"] {text-shadow: -3px -1px 1px #000;}
 /* --------------------------------------------- Skills unit1of5 */   
 header[id="skills_header"] {
     text-align: left;
@@ -683,4 +686,3 @@ header[id="video_title"] {
     #footer li:nth-child(3n) {
         display: none;}
 }    
-
