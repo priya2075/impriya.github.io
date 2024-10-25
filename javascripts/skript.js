@@ -16,6 +16,13 @@ window.addEventListener("scroll", () => {
 
 
 //==================================================================================
+if (window.location.pathname === "/index.html") {
+    window.location.href = "https://iampriya.com/";
+}
+
+
+
+//==================================================================================
 // Highlight active element
 let lastId;
 const topMenu = $("#navbar .rightlinks");
@@ -142,3 +149,13 @@ $(function() {
           $(this).css({ background: radialGlow });
       });
   });
+
+
+
+//==================================================================================
+// Get the current year
+var currentYear = new Date().getFullYear();
+
+// Find the element with the ID 'copyright-year' and set its text to the current year
+document.getElementById('copyright-year').textContent = currentYear;
+
