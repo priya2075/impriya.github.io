@@ -148,14 +148,16 @@ $(function() {
       }).mouseleave(function() {
           $(this).css({ background: radialGlow });
       });
+
+    // Get the current year
+    var currentYear = new Date().getFullYear();
+    
+    // Find the element with the ID 'copyright-year' and set its text to the current year
+    document.getElementById('copyright-year').textContent = currentYear;
   });
 
 
 
 //==================================================================================
-// Get the current year
-var currentYear = new Date().getFullYear();
 
-// Find the element with the ID 'copyright-year' and set its text to the current year
-document.getElementById('copyright-year').textContent = currentYear;
 
