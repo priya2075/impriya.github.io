@@ -334,16 +334,22 @@
   document.getElementById("email-link").addEventListener("click", function (e) {
     e.preventDefault();
 
-    var encoded = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz"; // Correct full ROT13 encoding
-    var decoded = rot13(encoded);
-
     let link = this;
-    this.textContent = "Revealing...";
+
+    if (link.dataset.revealed === "true") {
+      window.location.href = link.href;
+      return;
+    }
+
+    link.textContent = "Revealing...";
+    var encoded = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz"; 
+    var decoded = rot13(encoded).replaceAll("[qbg]", ".").replaceAll("[ng]", "@");
 
     setTimeout(function() {
-      link.href = "mailto:" + decoded.replaceAll("[qbg]", ".").replaceAll("[ng]", "@");
-      link.textContent = decoded.replaceAll("[qbg]", ".").replaceAll("[ng]", "@");
-    }, 2000); // 2-second delay before revealing
+      link.href = "mailto:" + decoded;
+      link.textContent = decoded;
+      link.dataset.revealed = "true"; 
+    }, 3500); 
   });
 </script>
 
