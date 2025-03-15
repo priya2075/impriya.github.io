@@ -17,14 +17,16 @@
       if (link.dataset.revealed === "true") {
         var encodedEmail = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz";  // Full ROT13 encoded email
 
-        // Decode and replace [dot] and [at] with real symbols
+        // Decode the email and replace [dot] and [at] with real symbols
         var decodedEmail = rot13(encodedEmail);
         decodedEmail = decodedEmail.replace(/\[qbg\]/g, ".");  // Replace [dot] with "."
         decodedEmail = decodedEmail.replace(/\[ng\]/g, "@");  // Replace [at] with "@"
         
-        console.log("Decoded Email: ", decodedEmail); // Debugging: Log decoded email
+        // Debugging - Log the decoded email to ensure it's correct
+        console.log("Decoded Email:", decodedEmail);
 
-        link.href = "mailto:" + decodedEmail;  // Set the correct mailto link
+        // Set mailto link with decoded email
+        link.href = "mailto:" + decodedEmail;
         window.location.href = link.href;  // Open the email client with the decoded email
         return;
       }
@@ -36,12 +38,14 @@
         .replace(/\[qbg\]/g, ".")  // Replace [dot] with "."
         .replace(/\[ng\]/g, "@");  // Replace [at] with "@"
 
-      console.log("Decoded Email on First Click: ", decoded); // Debugging: Log the decoded email text
+      // Debugging - Log the decoded email on first click
+      console.log("Decoded Email on First Click:", decoded);
 
       setTimeout(function () {
         link.href = "#";  // Keep the link non-functional until revealed
         link.textContent = decoded;  // Show the decoded email text
-        link.dataset.revealed = "true";  // Mark the email as revealed for the second click
+        link.dataset.revealed = "true";  // Mark the email as revealed for second click
       }, 2800); // 2.8-second delay before revealing
     });
   });
+
