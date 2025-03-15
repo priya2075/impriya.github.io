@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
       var encodedEmail = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz"; 
 
       // Decode the email and replace [dot] and [at] with real symbols before setting mailto
-      var decodedEmail = rot13(encodedEmail)
-        text.replace(/\[qbg\]/g, ".")  // Replace [dot] with "."
-        text.replace(/\[ng\]/g, "@");  // Replace [at] with "@"
+     var decodedEmail = rot13(encodedEmail);  // Decode the email
+        decodedEmail = decodedEmail.replace(/\[qbg\]/g, ".");  // Replace [dot] with "."
+        decodedEmail = decodedEmail.replace(/\[ng\]/g, "@");  // Replace [at] with "@"      
 
       link.href = "mailto:" + decodedEmail;  // Set the correct mailto link
       window.location.href = link.href;  // Open the email client with the decoded email
