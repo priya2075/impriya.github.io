@@ -334,19 +334,18 @@
   document.getElementById("email-link").addEventListener("click", function (e) {
     e.preventDefault();
 
-    var encoded = "vnzcevln[qbg]pbagnpg[ng]tznvy.pbz"; 
+    var encoded = "vnzcevyn[dot]pbaqng[at]tznvy[dot]pbz"; 
     var decoded = rot13(encoded);
 
     let link = this;
-    this.textContent = "Revealing..."; 
+    this.textContent = "Revealing...";
 
     setTimeout(function() {
-      link.href = "mailto:" + decoded;
-      link.textContent = decoded; 
-    }, 5000); 
+      link.href = "mailto:" + decoded.replace("[dot]", ".").replace("[at]", "@");
+      link.textContent = decoded.replace("[dot]", ".").replace("[at]", "@");
+    }, 3500); 
   });
 </script>
-
 
 
 </body>
