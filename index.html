@@ -323,25 +323,30 @@
 </script>
 
 
+
 <script>
+  function rot13(str) {
+    return str.replace(/[a-z]/gi, function(c){
+      return String.fromCharCode(c.charCodeAt(0) + (c.toLowerCase() < 'n' ? 13 : -13));
+    });
+  }
+
   document.getElementById("email-link").addEventListener("click", function (e) {
     e.preventDefault();
 
-    var user = ["i", "a", "m", "p", "r", "i", "y", "a", ".", "c", "o", "n", "t", "a", "c", "t"].join("");
-    var domain = ["g", "m", "a", "i", "l"].join("");
-    var tld = ["c", "o", "m"].join("");
-    
-    var email = user + "@" + domain + "." + tld;
-    
+    var encoded = "vnzcveln.pbaqng@tznvy.pbz"; 
+    var decoded = rot13(encoded);
+
     let link = this;
-    this.textContent = "Revealing...";
-    
+    this.textContent = "Revealing..."; 
+
     setTimeout(function() {
-      link.href = "mailto:" + email;
-      link.textContent = email;
-    }, 5000); // 5-second delay before revealing
+      link.href = "mailto:" + decoded;
+      link.textContent = decoded; 
+    }, 5000); 
   });
 </script>
+
 
 
 </body>
