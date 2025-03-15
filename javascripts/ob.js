@@ -20,12 +20,15 @@
         // Decode the email and manually replace [dot] and [at] with real symbols
         var decodedEmail = rot13(encodedEmail);
         
+        // Log the decoded email before replacing
+        console.log("Decoded Email before replacement:", decodedEmail);
+
         // Replacing manually
         decodedEmail = decodedEmail.split("[qbg]").join(".");  // Manually replace [dot] with "."
         decodedEmail = decodedEmail.split("[ng]").join("@");  // Manually replace [at] with "@"
 
-        // Debugging: Log the decoded email to check
-        console.log("Decoded Email:", decodedEmail);
+        // Log the final decoded email to check the replacements
+        console.log("Final Decoded Email:", decodedEmail);
 
         // Set mailto link with decoded email
         link.href = "mailto:" + decodedEmail;
@@ -38,12 +41,15 @@
       var encoded = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz"; // Full ROT13 encoded email
       var decoded = rot13(encoded);
 
+      // Log the decoded email on the first click
+      console.log("Decoded Email on First Click:", decoded);
+
       // Replacing manually
       decoded = decoded.split("[qbg]").join(".");  // Manually replace [dot] with "."
       decoded = decoded.split("[ng]").join("@");  // Manually replace [at] with "@"
 
-      // Debugging: Log the decoded email on first click
-      console.log("Decoded Email on First Click:", decoded);
+      // Log the final decoded email after replacements
+      console.log("Decoded Email after replacement:", decoded);
 
       setTimeout(function () {
         link.href = "#";  // Keep the link non-functional until revealed
