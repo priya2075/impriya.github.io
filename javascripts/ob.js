@@ -1,4 +1,4 @@
-
+document.addEventListener("DOMContentLoaded", function() {
 
   function rot13(str) {
     return str.replace(/[a-z]/gi, function(c){
@@ -11,7 +11,6 @@
 
     let link = this;
 
-
     if (link.dataset.revealed === "true") {
       var encodedEmail = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz"; 
       var decodedEmail = rot13(encodedEmail).replaceAll("[qbg]", ".").replaceAll("[ng]", "@"); 
@@ -20,7 +19,6 @@
       return;
     }
 
- 
     link.textContent = "Revealing...";
     var encoded = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz"; 
     var decoded = rot13(encoded).replaceAll("[qbg]", ".").replaceAll("[ng]", "@");
@@ -29,5 +27,6 @@
       link.href = "#"; 
       link.textContent = decoded;
       link.dataset.revealed = "true"; 
-    }, 2800); /
+    }, 2800); 
   });
+});
