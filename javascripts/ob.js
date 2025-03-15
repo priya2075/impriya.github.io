@@ -23,9 +23,9 @@
         // Log the decoded email before replacing
         console.log("Decoded Email before replacement:", decodedEmail);
 
-        // Replacing manually
-        decodedEmail = decodedEmail.split("[qbg]").join(".");  // Manually replace [dot] with "."
-        decodedEmail = decodedEmail.split("[ng]").join("@");  // Manually replace [at] with "@"
+        // Manually replace [dot] with "." and [at] with "@"
+        decodedEmail = decodedEmail.split("[qbg]").join(".");  // Replace [dot] with "."
+        decodedEmail = decodedEmail.split("[ng]").join("@");  // Replace [at] with "@"
 
         // Log the final decoded email to check the replacements
         console.log("Final Decoded Email:", decodedEmail);
@@ -58,3 +58,4 @@
       }, 2800); // 2.8-second delay before revealing
     });
   });
+
