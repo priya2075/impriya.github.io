@@ -1,4 +1,3 @@
-
   document.addEventListener("DOMContentLoaded", function () {
 
     // ROT13 function to decode the encoded string
@@ -13,26 +12,19 @@
 
       let link = this;
 
-      // If the email has already been revealed, prepare the mailto link with decoded email
+      // If the email has already been revealed, just display the decoded email
       if (link.dataset.revealed === "true") {
         var encodedEmail = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz";  // Full ROT13 encoded email
 
         // Decode the email and manually replace [dot] and [at] with real symbols
         var decodedEmail = rot13(encodedEmail);
-        
-        // Log the decoded email before replacing
-        console.log("Decoded Email before replacement:", decodedEmail);
 
         // Manually replace [dot] with "." and [at] with "@"
         decodedEmail = decodedEmail.split("[qbg]").join(".");  // Replace [dot] with "."
         decodedEmail = decodedEmail.split("[ng]").join("@");  // Replace [at] with "@"
 
-        // Log the final decoded email to check the replacements
-        console.log("Final Decoded Email:", decodedEmail);
-
-        // Set mailto link with decoded email
-        link.href = "mailto:" + decodedEmail;
-        window.location.href = link.href;  // Open the email client with the decoded email
+        // Display the final decoded email as text
+        link.textContent = decodedEmail;
         return;
       }
 
@@ -41,21 +33,13 @@
       var encoded = "vnzcevln[qbg]pbagnpg[ng]tznvy[qbg]pbz"; // Full ROT13 encoded email
       var decoded = rot13(encoded);
 
-      // Log the decoded email on the first click
-      console.log("Decoded Email on First Click:", decoded);
-
       // Replacing manually
       decoded = decoded.split("[qbg]").join(".");  // Manually replace [dot] with "."
       decoded = decoded.split("[ng]").join("@");  // Manually replace [at] with "@"
 
-      // Log the final decoded email after replacements
-      console.log("Decoded Email after replacement:", decoded);
-
       setTimeout(function () {
-        link.href = "#";  // Keep the link non-functional until revealed
         link.textContent = decoded;  // Show the decoded email text
         link.dataset.revealed = "true";  // Mark the email as revealed for second click
       }, 2800); // 2.8-second delay before revealing
     });
   });
-
