@@ -650,11 +650,9 @@ header[id="video_title"] {
         margin: -90px auto 30px auto;}
     /* For Videos Unit */
     .unit3of3 {
-        display: none !important;
         margin-bottom: 5px;
         box-shadow: inset 0px 4px 4px -2px var(--dropshadow-color);}
-    header[id="video_title"] {
-        display: none!important;}
+    header[id="video_title"] {}
     .video_grid {
         margin: 0 auto 80px auto !important;
         grid-template-columns: 1fr ;
