@@ -677,7 +677,8 @@ header[id="video_title"] {
         color: var(--default-color);
         background-color: var(--theme-color);
         text-align: center;
-        margin: -90px auto 30px auto;}
+        margin: -90px auto 30px auto;
+        display: none !important;}
     .vidtrex {
         display: flex;
         width: 99%;
