@@ -659,15 +659,9 @@ header[id="video_title"] {
         margin: 0 auto 80px auto !important;
         grid-template-columns: 1fr ;
         flex-direction: column;}
-    .video_grid::before {
-        content: "III. VIDEOS";
-        grid-column: 1 / 4;  
-        font-weight: 700;
-        font-size: 1.9rem;
-        color: black; /* var(--default-color) */
-        background-color: var(--theme-color);
-        text-align: center;
-        margin: -90px auto 30px auto;}
+
+
+    
     .vidtrex {
         display: flex;
         width: 99%;
