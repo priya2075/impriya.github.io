@@ -664,7 +664,7 @@ header[id="video_title"] {
         grid-column: 1 / 4;  
         font-weight: 700;
         font-size: 1.9rem;
-        color: var(--default-color);
+        color: black; /* var(--default-color) */
         background-color: var(--theme-color);
         text-align: center;
         margin: -90px auto 30px auto;}
