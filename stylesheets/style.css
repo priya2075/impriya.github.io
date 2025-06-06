@@ -651,7 +651,6 @@ header[id="video_title"] {
     /* For Videos Unit */
     .unit3of3 {
         display: none !important;
-        padding: 50px 0 20px 0;
         margin-bottom: 5px;
         box-shadow: inset 0px 4px 4px -2px var(--dropshadow-color);}
     header[id="video_title"] {
