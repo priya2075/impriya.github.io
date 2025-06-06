@@ -656,10 +656,8 @@ header[id="video_title"] {
         box-shadow: inset 0px 4px 4px -2px var(--dropshadow-color);}
     header[id="video_title"] {
         display: none!important;}
-   .video_grid {
+  .video_grid {
         margin: 0 auto 80px auto !important;
-        grid-template-columns: 1fr ;
-        flex-direction: column;
         display: flex;
         flex-flow: column wrap;
         align-content: space-between;}
