@@ -658,9 +658,8 @@ header[id="video_title"] {
         display: none!important;}
     .video_grid {
         margin: 0 auto 80px auto !important;
-        display: flex;
-        flex-flow: column wrap;
-        align-content: space-between;}
+        grid-template-columns: 1fr ;
+        flex-direction: column;}
     .video_grid::before {
         content: "III. VIDEOS";
         grid-column: 1 / 4;  
@@ -671,11 +670,9 @@ header[id="video_title"] {
         text-align: center;
         margin: -90px auto 30px auto;}
     .vidtrex {
+        display: flex;
         width: 99%;
         margin: 0 auto;} 
-    .vid-item {
-        margin-bottom: 16px;
-    }
     .videoBox iframe {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         -webkit-border-radius: 7px; 
