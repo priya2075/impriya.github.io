@@ -674,7 +674,6 @@ header[id="video_title"] {
         width: 99%;
         margin: 0 auto;} 
     .vid-item {
-        width: 48%; /* Or whatever size fits 2 cols */
         margin-bottom: 16px;
     }
     .videoBox iframe {
