@@ -446,6 +446,7 @@ header[id="video_title"] {
     grid-template-columns: auto 320px 320px 320px;  
     grid-gap: 2px;}
 .video_grid article {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;}
 .video_container {
