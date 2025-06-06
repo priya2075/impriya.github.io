@@ -469,6 +469,12 @@ header[id="video_title"] {
     -moz-border-radius: 7px; 
     border-radius: 7px;
     margin: 10px;}
+
+.vid-item {
+  width: calc(50% - 16px); /* gives 2 columns */
+  margin-bottom: 20px;
+}
+
 /* --------------------------------------------- Footer */   
 #footer { 
     clear: both; 
