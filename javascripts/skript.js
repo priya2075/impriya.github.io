@@ -50,7 +50,6 @@ $(window).scroll(function () {
   if (fromTop <= topMenuHeight) {
     menuItems.removeClass("active");
     lastId = "";
-    console.log("🔹 At top — no active section");
     return;
   }
 
@@ -58,7 +57,6 @@ $(window).scroll(function () {
   if ($(window).scrollTop() + $(window).height() === $(document).height()) {
     menuItems.removeClass("active");
     $(".rightlinks a[href='#videos']").addClass("active");
-    console.log("🔸 At bottom — videos link activated");
     return;
   }
 
@@ -74,8 +72,6 @@ $(window).scroll(function () {
       const sectionTop = section.offset().top;
       const sectionBottom = sectionTop + section.outerHeight();
 
-      console.log(`🧐 Checking ${sectionId}: [${sectionTop} - ${sectionBottom}]`);
-
       if (sectionTop <= fromTop && sectionBottom > fromTop) {
         return section;
       }
@@ -87,7 +83,6 @@ $(window).scroll(function () {
 
   if (lastId !== id) {
     lastId = id;
-    console.log("✅ Active section changed to:", id);
 
     menuItems.removeClass("active");
     menuItems.filter(function () {
