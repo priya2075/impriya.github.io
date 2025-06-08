@@ -137,7 +137,7 @@ nav[id="navbar"] {
     box-shadow: 0px 3px 10px var(--dropshadow-color);}
 .rightlinks {
     order: 2; 
-    width: 500px;
+    width: 550px;
     right: 0!important;
     margin-top: 25px;
     display: inline-block;}
