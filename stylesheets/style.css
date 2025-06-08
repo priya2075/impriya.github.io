@@ -632,7 +632,7 @@ header[id="video_title"] {
     /* --------------------------------------------- For Skills Unit */
     .unit1of3 {
         padding: 50px 0;
-        margin-top: 100px;
+        margin-top: 60px;
         margin-bottom: 25px;
         box-shadow: inset 0px 4px 4px -2px var(--dropshadow-color);}
     header[id="skills_header"] {
