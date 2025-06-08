@@ -26,13 +26,13 @@
     --neon2-color: rgba(223,64,94, .50);
     --neon3-color: rgba(246, 213, 156, .75);
     --neon4-color: rgba(246, 213, 156, .97);
-    --body-font: 'Inconsolata', monospace;
-    --h1-font: 'Inconsolata', monospace;
-    --h2-font: 'Inconsolata', monospace;
-    --h3-font: 'Inconsolata', monospace;
+    --body-font: 'Aptos', sans-serif;
+    --h1-font: 'Aptos', sans-serif;
+    --h2-font: 'Aptos', sans-serif;
+    --h3-font: 'Aptos', sans-serif;
     --welcome-font: 'Beth Ellen', cursive !important;
-    --intro-font: 'Inconsolata', monospace !important;
-    --navlinks-font: 'Inconsolata', monospace;}
+    --intro-font: 'Aptos', sans-serif !important;
+    --navlinks-font: 'Aptos', sans-serif;}
 
 * {
     margin:0;
