@@ -170,7 +170,8 @@ header[id="welcome"] {
     justify-content:space-around;}
 header[id="welcome"] > .intro {  
     height: 8vh;
-    font-size: 3em;  
+    font-size: 2.6em; 
+    word-spacing: 4px;
     line-height: 1.5;
     font-weight:300;
     color: var(--intro-color) !important;
@@ -605,6 +606,7 @@ header[id="video_title"] {
     header[id="welcome"] > .intro {
         margin-top: 60px;
         font-size: 1.8rem; 
+        word-spacing: 4px;
         text-align: center;  
         font-family: inherit;}
     header[id="welcome"] > .hellome {
