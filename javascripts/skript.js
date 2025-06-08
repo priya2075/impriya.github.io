@@ -24,56 +24,75 @@ if (window.location.pathname === "/index.html") {
 // Highlight active element
 let lastId;
 const topMenu = $("#navbar .rightlinks");
-const topMenuHeight = topMenu.outerHeight() + 1;
+const topMenuHeight = topMenu?.outerHeight?.() || 70; // fallback to 70px if undefined
 const menuItems = topMenu.find("a");
+const scrollBuffer = 10; // helps adjust for layout shifts (like fonts)
 
 // Function to scroll to a specific section
 function scrollToElement(clickedLink, id) {
-  const offsetTop = $("#" + id).offset().top - topMenuHeight + 1;
+  const offsetTop = $("#" + id).offset().top - topMenuHeight + scrollBuffer;
   $("html, body").animate({
     scrollTop: offsetTop
   }, 850);
-  
+
   menuItems.removeClass("active");
   $(clickedLink).addClass("active");
 }
 
 // Bind to scroll
-$(window).scroll(function() {
-  const fromTop = $(this).scrollTop() + topMenuHeight;
-  
-  // If user is at the top, remove all active classes
+$(window).scroll(function () {
+  const fromTop = $(this).scrollTop() + topMenuHeight + scrollBuffer;
+
+  // Debug log
+  console.log("→ Scrolling… fromTop:", fromTop);
+
+  // If at top of page
   if (fromTop <= topMenuHeight) {
     menuItems.removeClass("active");
     lastId = "";
+    console.log("🔹 At top — no active section");
     return;
   }
 
-  // Check if the user has scrolled to the bottom of the page
+  // If at bottom of page
   if ($(window).scrollTop() + $(window).height() === $(document).height()) {
     menuItems.removeClass("active");
     $(".rightlinks a[href='#videos']").addClass("active");
+    console.log("🔸 At bottom — videos link activated");
     return;
   }
 
-  // Existing logic to add 'active' class based on section in viewport
-  let cur = menuItems.map(function() {
-    const href = $(this).attr("onclick").match(/scrollToElement\(this, '(.*)'\)/)[1];
-    const item = $("#" + href);
-    if (item.length && (item.offset().top <= fromTop) && (item.offset().top + item.height() > fromTop)) {
-      return item;
+  // Map through links to find which section is in view
+  let cur = menuItems.map(function () {
+    const hrefMatch = $(this).attr("onclick")?.match(/scrollToElement\(this, ['"](.+?)['"]\)/);
+    if (!hrefMatch) return;
+
+    const sectionId = hrefMatch[1];
+    const section = $("#" + sectionId);
+
+    if (section.length) {
+      const sectionTop = section.offset().top;
+      const sectionBottom = sectionTop + section.outerHeight();
+
+      console.log(`🧐 Checking ${sectionId}: [${sectionTop} - ${sectionBottom}]`);
+
+      if (sectionTop <= fromTop && sectionBottom > fromTop) {
+        return section;
+      }
     }
   });
-  
+
   cur = cur[cur.length - 1];
   const id = cur && cur.length ? cur[0].id : "";
-  
+
   if (lastId !== id) {
     lastId = id;
-    
+    console.log("✅ Active section changed to:", id);
+
     menuItems.removeClass("active");
-    menuItems.filter(function() {
-      return $(this).attr("onclick").match(/scrollToElement\(this, '(.*)'\)/)[1] === id;
+    menuItems.filter(function () {
+      const match = $(this).attr("onclick")?.match(/scrollToElement\(this, ['"](.+?)['"]\)/);
+      return match && match[1] === id;
     }).addClass("active");
   }
 });
