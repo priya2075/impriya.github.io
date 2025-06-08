@@ -1,7 +1,7 @@
 /* Boogi Woogie Wu Css */
 
 :root {
-    --theme-color: rgb(33, 51, 57);
+    --theme-color:  rgb(33, 51, 57);
     --themefont-color: rgba(223,64,94, .87);
     --default-color: #f6d59c;
     --grey-color: #e2e8f0;
@@ -13,14 +13,14 @@
     --h2-color: rgba(223,64,94, .87);
     --h3-color: #f6d59c;
     --header-color: #df405e;
-    --header-color2: #529600;
+    --header-color2: rgb(68, 255, 68);
     --tag-color: #f6d59c;
     --skills_list-color: #f6d59c;
-    --borderbottom-color: #529600;
+    --borderbottom-color: rgb(68, 255, 68);
     --footer-color: #f6d59c;
     --backtotopshadow-color: rgba(255, 255, 255, .2);
     --backtotopbg-color: rgba(255, 255, 255, .07);
-    --card-color: rgba(223,64,94, .77);
+    --card-color: rgba(223, 64, 94, 0.77);
     --neon0-color: rgba(128,224,214, 0.05);
     --neon1-color: rgba(128,224,214,.25);
     --neon2-color: rgba(223,64,94, .50);
@@ -143,18 +143,38 @@ nav[id="navbar"] {
     display: inline-block;}
 .rightlinks a {
     font-size:20px;
+    position: relative;
     font-weight: 400;
     font-weight: normal;
     font-family: var(--navlinks-font);
     text-transform:uppercase!important;
     color: var(--mainlink-color) !important;
     margin: 15px 35px 0 0!important;}
+.rightlinks a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    background: var(--header-color2) !important;
+    transition: width 0.4s ease;}
+.rightlinks a:hover::after {
+    width: 100%;}
 .rightlinks a:hover {
     font-weight: 900 !important;
     color: var(--mainlinkhover-color) !important;}
 .rightlinks a.active {
     font-weight: 900 !important;
     color: var(--mainlinkhover-color) !important;}
+.rightlinks a.active::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    background: var(--header-color2) !important;}
 /* --------------------------------------------- Header */
 header[id="welcome"] {
     padding:120px 100px;
