@@ -656,7 +656,6 @@ header[id="video_title"] {
         font-weight: 700;
         font-size: 1.9rem;
         color: var(--default-color);
-        background-color: var(--theme-color);
         text-align: center;
         margin: -90px auto 30px auto;}
     .skills_list article {
@@ -690,7 +689,6 @@ header[id="video_title"] {
         font-weight: 700;
         font-size: 1.9rem;
         color: var(--default-color);
-        background-color: var(--theme-color);
         text-align: center;
         margin: -90px auto 30px auto;}
     /* --------------------------------------------- For Videos Unit */
@@ -704,6 +702,16 @@ header[id="video_title"] {
         display: grid;
         grid-template-columns: subgrid;
         grid-gap: 1px;}
+    .video_grid::before {
+        content: "III. VIDEOS";
+        grid-column: 1 / 4;  
+        font-weight: 700;
+        font-size: 1.9rem;
+        color: var(--default-color);
+        text-align: center;
+        margin: -90px auto 30px auto;
+        background-color: transparent !important;
+        display: block !important;}
     .video_grid article {
         display: flex;
         flex-direction: column;
