@@ -11,9 +11,9 @@
     --neon2-color: rgba(223,64,94, .50);
     --neon3-color: rgba(246, 213, 156, .75);
     --neon4-color: rgba(246, 213, 156, .97);
-    --body-font: 'Inconsolata', monospace;
+    --body-font: 'Aptos', sans-serif;
     --welcome-font: 'Beth Ellen', cursive !important;
-    --intro-font: 'Inconsolata', monospace !important;}
+    --intro-font: 'Aptos', sans-serif !important;}
 
 * {
     margin:0;
