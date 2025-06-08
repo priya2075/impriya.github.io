@@ -632,7 +632,7 @@ header[id="video_title"] {
     /* --------------------------------------------- For Skills Unit */
     .unit1of3 {
         padding: 50px 0;
-        margin-top: 40px;
+        margin-top: 100px;
         margin-bottom: 25px;
         box-shadow: inset 0px 4px 4px -2px var(--dropshadow-color);}
     header[id="skills_header"] {
@@ -643,7 +643,7 @@ header[id="video_title"] {
         display: flex; 
         flex-direction: column;}
     .skills_list::before {
-        content: "I. SKILLS";
+        content: "\1FA9B";
         grid-column: 1 / 4;  
         font-weight: 700;
         font-size: 1.9rem;
@@ -676,7 +676,7 @@ header[id="video_title"] {
         display: flex; 
         flex-direction: column;}
     .project_grid::before {
-        content: "II. PROJECTS";
+        content: "\1F4C1";
         grid-column: 1 / 4;  
         font-weight: 700;
         font-size: 1.9rem;
@@ -691,7 +691,7 @@ header[id="video_title"] {
     header[id="video_title"] {
         display: none!important;}
     .video_grid::before {
-        content: "III. VIDEOS";
+        content: "\1F4F7";
         grid-column: 1 / 4;  
         font-weight: 700;
         font-size: 1.9rem;
