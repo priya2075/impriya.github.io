@@ -701,21 +701,24 @@ header[id="video_title"] {
     header[id="video_title"] {
         display: none!important;}
     .video_grid {
-        margin: 0 auto 80px auto !important;
-        grid-template-columns: 1fr ;
-        flex-direction: column;}
-    .video_grid::before {
-        background-color: transparent !important;
-        display: block !important;}
-    .vidtrex {
+        display: grid;
+        grid-template-columns: subgrid;
+        grid-gap: 1px;}
+    .video_grid article {
         display: flex;
-        width: 95%;
-        margin: 0 auto;} 
-    .videoBox {
-        max-width: 100%;
-        border-radius: 0;}
+        flex-direction: column;
+        justify-content: space-between;}
+    .vid-item {
+        height: auto !important;
+        width: auto !important;
+        border-radius: 7px;
+        margin: 5px 0px 12px 5px !important;}
+    .video_container {
+        display: flex;
+        justify-content: space-between;}
     .videoBox iframe {
-        border-radius: 0;}
+        height: auto !important;
+        width: auto !important;}
     /* --------------------------------------------- Footer */
     #footer {
         width: 70%;
