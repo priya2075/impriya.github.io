@@ -503,7 +503,7 @@ header[id="video_title"] {
 #footer li:nth-child(even) {
     padding: 0 .5em;
     margin:  0 .25em;
-    border-right: 0px solid var(--grey-color);
+    /*border-right: 0px solid var(--grey-color);*/
     border-left:  1px solid var(--grey-color);}
 /* --------------------------------------------- Back to Top */   
 .back-to-top:after{
