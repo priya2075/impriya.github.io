@@ -14,12 +14,10 @@ window.addEventListener("scroll", () => {
 });
 
 
-
 //==================================================================================
 if (window.location.pathname === "/index.html") {
     window.location.href = "https://iampriya.com/";
 }
-
 
 
 //==================================================================================
@@ -81,7 +79,6 @@ $(window).scroll(function() {
 });
 
 
-
 //==================================================================================
 $(() => {
     // Masonry Grids
@@ -122,14 +119,13 @@ $(() => {
 });
 
 
-
 //==================================================================================
 // https://css-tricks.com/examples/MovingHighlight/
 $(function() {
   var radialGlow = $("body").css("background-color"),
       x, y, xy, bgWebKit, bgMoz,
       lightColor = "rgba(62,112,127,0.17)",
-      gradientSize = 415;
+      gradientSize = 390;
   
       // Basic Demo
       $('body').mousemove(function(e) {
@@ -138,7 +134,7 @@ $(function() {
           y  = e.pageY - this.offsetTop;
           xy = x + " " + y;
   
-          bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(30, 45, 50,0.0))), " + radialGlow;
+          bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(30, 45, 50, 0.2))), " + radialGlow;
           bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + radialGlow + " " + gradientSize + "px)";
   
           $(this)
